@@ -6,24 +6,32 @@
       <div class="column is-2">
         <div class="filters">
           <div class="filter-group">
-            <!-- <button class="button" @click="resetFilters">Clear</button> -->
-            <div class="select is-multiple">
-              <label>Tags</label>
-              <select v-model="activeFilters.tags" multiple size="8" @change="refilter">
-                <option v-for="tag in tags" :key="tag" :value="tag">
-                  {{tag | cleanTag}}
-                </option>
-              </select>
+            <div class="filter-group-label">Tags</div>
+            <div v-for="tag in tags" :key="tag">
+              <label :for="tag">
+                <input
+                  type="checkbox"
+                  :id="tag"
+                  :value="tag"
+                  v-model="activeFilters.tags"
+                  @change="refilter">
+                {{tag | cleanTag}}
+              </label>
             </div>
           </div>
+
           <div class="filter-group">
-            <div class="select is-multiple" style="margin-right: 1em">
-              <label>Season</label>
-              <select v-model="activeFilters.seasons" multiple size="8" @change="refilter">
-                <option v-for="season in seasons" :key="season" :value="season">
-                  {{season}}
-                </option>
-              </select>
+            <div class="filter-group-label">Season</div>
+            <div v-for="season in seasons" :key="season">
+              <label :for="season">
+                <input
+                  type="checkbox"
+                  :id="season"
+                  :value="season"
+                  v-model="activeFilters.seasons"
+                  @change="refilter">
+                {{season}}
+              </label>
             </div>
           </div>
         </div>
@@ -150,7 +158,7 @@ export default {
   .filter-group {
     margin-bottom: 1em;
   }
-  .filter-group label {
+  .filter-group-label {
     font-weight: 900;
     font-size: 1.33em;
   }
@@ -161,9 +169,6 @@ export default {
     width: 90%;
     margin-top: .33em;
   }
-  /*select {
-    border: none;
-  }*/
   h1 {
     padding: .33em 0 1em;
     text-align: center;
