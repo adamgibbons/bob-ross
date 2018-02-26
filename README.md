@@ -1,6 +1,10 @@
-# bob-ross
+# The Bob Ross Explorer 🎨
 
-> A Vue.js project
+I'm a big Bob Ross fan, and I recently came across a great [statistical analysis](https://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/) on his work from FiveThirtyEight.
+The accompanying data set is [available on Github](https://github.com/fivethirtyeight/data/blob/master/bob-ross/elements-by-episode.csv), so I thought it'd be a fun opportunity to combine three things I love: Vue.js, Bob Ross, and data!
+
+The finished product is available here:
+http://bob-ross-explorer.s3-website.us-east-2.amazonaws.com/index.html#/
 
 ## Build Setup
 
