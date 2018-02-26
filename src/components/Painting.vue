@@ -49,7 +49,8 @@ export default {
         .replace(/\./g, '')
         .replace(/'/g, '')
         .replace(/ /g, '-')
-      return `/static/${title}.png`
+
+      return `${process.env.S3_URL}${title}.png`
     },
     imgDescription () {
       return this.title
