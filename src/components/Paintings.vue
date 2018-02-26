@@ -5,44 +5,46 @@
     <div class="columns">
       <div class="column is-2">
         <div class="filters">
-          <div class="title is-4">Filters</div>
-            <div>
-              <div class="select is-multiple">
-                <label>Tags</label>
-                <select v-model="activeFilters.tags" multiple size="8" @change="refilter">
-                  <option v-for="tag in tags" :key="tag" :value="tag">
-                    {{tag | cleanTag}}
-                  </option>
-                </select>
-              </div>
+          <div class="filter-group">
+            <!-- <button class="button" @click="resetFilters">Clear</button> -->
+            <div class="select is-multiple">
+              <label>Tags</label>
+              <select v-model="activeFilters.tags" multiple size="8" @change="refilter">
+                <option v-for="tag in tags" :key="tag" :value="tag">
+                  {{tag | cleanTag}}
+                </option>
+              </select>
             </div>
-
-            <br>
-
-            <div>
-              <div class="select is-multiple" style="margin-right: 1em">
-                <label>Season</label>
-                <select v-model="activeFilters.seasons" multiple size="8" @change="refilter">
-                  <option v-for="season in seasons" :key="season" :value="season">
-                    {{season}}
-                  </option>
-                </select>
-              </div>
+          </div>
+          <div class="filter-group">
+            <div class="select is-multiple" style="margin-right: 1em">
+              <label>Season</label>
+              <select v-model="activeFilters.seasons" multiple size="8" @change="refilter">
+                <option v-for="season in seasons" :key="season" :value="season">
+                  {{season}}
+                </option>
+              </select>
             </div>
+          </div>
         </div>
       </div>
 
       <div class="column">
-        <div class="columns is-multiline">
+        <div class="active-filters">
+          <div v-show="noResults">No paintings match your filters. You can adjust them, or <a @click="resetFilters">reset</a> them.</div>
+          <div v-show="!noResults">({{visiblePaintings.length}} matches)</div>
+        </div>
+
+        <transition-group name="list" tag="div" class="columns is-multiline">
           <painting
             v-for="(painting, idx) in visiblePaintings"
-            class="column is-3 card"
+            class="column is-3 card list-item"
             :key="idx"
             :title="painting.title"
             :episode="painting.episode"
             :tags="extractTagsFromData(painting)">
           </painting>
-        </div>
+        </transition-group>
       </div>
     </div>
   </div>
@@ -89,10 +91,18 @@ export default {
     },
     tags () {
       return parseTags(this.paintings)
+    },
+    noResults () {
+      return this.visiblePaintings.length === 0
     }
   },
   filters: { cleanTag },
   methods: {
+    resetFilters () {
+      this.visiblePaintings = clone(this.paintings)
+      this.activeFilters.seasons = []
+      this.activeFilters.tags = []
+    },
     extractTagsFromData (data) {
       const obj = clone(data)
 
@@ -126,16 +136,34 @@ export default {
 </script>
 
 <style scoped>
+  .active-filters {
+    margin: 0 0 2em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 1em;
+    font-weight: 600;
+    font-size: 1.1em;
+  }
   .filters {
     margin: 0 0 2em;
     padding: 0 0 1em;
   }
-  .select {
+  .filter-group {
+    margin-bottom: 1em;
+  }
+  .filter-group label {
+    font-weight: 900;
+    font-size: 1.33em;
+  }
+  .select{
     width: 100%;
   }
   select {
     width: 90%;
+    margin-top: .33em;
   }
+  /*select {
+    border: none;
+  }*/
   h1 {
     padding: .33em 0 1em;
     text-align: center;
@@ -143,5 +171,11 @@ export default {
   .filters .title.is-4 {
     margin-top: 0;
     padding-top: 0;
+  }
+  .list-enter-active, .list-leave-active {
+    transition: all .2s;
+  }
+  .list-enter, .list-leave-to {
+    opacity: 0;
   }
 </style>
