@@ -1,6 +1,7 @@
 const path = require('path')
 const getColors = require('get-image-colors')
 const fs = require('fs')
+const _ = require('lodash')
 
 function isPng (file) {
   return file.indexOf('.png') !== -1  
@@ -12,25 +13,17 @@ Promise.all(images.map((filename) => {
   return getColors(path.join(__dirname, '../static', filename)).then((colors) => {
     return colors.map((color) => {
       return color.hex()
-    }).map((colors) => {
-      return { filename, colors }
-    })
+    }).reduce((accumulator, current, next) => {
+      accumulator.painting = filename
+      accumulator.colors.push(current)
+      return accumulator
+    }, { painting: '', colors: []})
   })
-}))
-.then(function (values) {
-  console.log(values)
+})).then((result) => {
+  fs.writeFileSync(path.join(__dirname, '../src/data', 'colors.json'), JSON.stringify(result))
 })
 
-  
-
-
-
-
-
-// getColors(path.join(__dirname, '../static', 'autumn-oval.png'))
-//   .then((colors) => {
-//     colors.map((color) => {
-//       console.log(color.hex())
-//     })
-//   })
-//   
+// Promise.resolve(result).then(function (paintings) {
+//   const colors = _.flatten(paintings.map(painting => painting.colors))
+//   console.log(colors)
+// })

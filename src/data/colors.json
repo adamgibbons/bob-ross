@@ -1,0 +1,4032 @@
+[
+  {
+    "painting": "a-mild-winters-day.png",
+    "colors": [
+      "#d49d51",
+      "#faf2de",
+      "#f2d194",
+      "#86522f",
+      "#563522"
+    ]
+  },
+  {
+    "painting": "a-pretty-autumn-day.png",
+    "colors": [
+      "#211e16",
+      "#6b5c4e",
+      "#707f94",
+      "#a69a8e",
+      "#8796a5"
+    ]
+  },
+  {
+    "painting": "a-walk-in-the-woods.png",
+    "colors": [
+      "#d6b25b",
+      "#360e08",
+      "#7b3724",
+      "#a26630",
+      "#f1e8bf"
+    ]
+  },
+  {
+    "painting": "absolutely-autumn.png",
+    "colors": [
+      "#716034",
+      "#9f98a3",
+      "#cfc3b1",
+      "#230e05",
+      "#bea150"
+    ]
+  },
+  {
+    "painting": "after-the-rain.png",
+    "colors": [
+      "#0a100f",
+      "#698599",
+      "#3e5673",
+      "#334c29",
+      "#6a6157"
+    ]
+  },
+  {
+    "painting": "anatomy-of-a-wave.png",
+    "colors": [
+      "#daeff8",
+      "#5d7938",
+      "#587dd4",
+      "#7fadde",
+      "#787daa"
+    ]
+  },
+  {
+    "painting": "anglers-haven.png",
+    "colors": [
+      "#4d5c50",
+      "#d6ecce",
+      "#a0d8cd",
+      "#989b5f",
+      "#7c9dc7"
+    ]
+  },
+  {
+    "painting": "arctic-beauty.png",
+    "colors": [
+      "#dfcff1",
+      "#322732",
+      "#929246",
+      "#654e7e",
+      "#8270b1"
+    ]
+  },
+  {
+    "painting": "arctic-winter-day.png",
+    "colors": [
+      "#8ba1bd",
+      "#1c283e",
+      "#e3f0f9",
+      "#444a63",
+      "#5c585a"
+    ]
+  },
+  {
+    "painting": "arizona-splendor.png",
+    "colors": [
+      "#e1e4dd",
+      "#b79a5d",
+      "#aa8516",
+      "#422811",
+      "#754a0e"
+    ]
+  },
+  {
+    "painting": "around-the-bend.png",
+    "colors": [
+      "#1b2310",
+      "#4685b8",
+      "#626632",
+      "#95965e",
+      "#71934f"
+    ]
+  },
+  {
+    "painting": "at-dawns-light.png",
+    "colors": [
+      "#796174",
+      "#dc9984",
+      "#20122c",
+      "#bab6be",
+      "#b6a5bd"
+    ]
+  },
+  {
+    "painting": "auroras-dance.png",
+    "colors": [
+      "#a7a9af",
+      "#06081a",
+      "#0d3572",
+      "#2764a1",
+      "#578bb2"
+    ]
+  },
+  {
+    "painting": "autumn-days.png",
+    "colors": [
+      "#9c8057",
+      "#9395eb",
+      "#241e41",
+      "#e3cf6c",
+      "#592e0e"
+    ]
+  },
+  {
+    "painting": "autumn-exhibition.png",
+    "colors": [
+      "#a77530",
+      "#e9d4d0",
+      "#53331f",
+      "#6b3b11",
+      "#eec56d"
+    ]
+  },
+  {
+    "painting": "autumn-fantasy.png",
+    "colors": [
+      "#4c391c",
+      "#d39389",
+      "#8a7f93",
+      "#a1725c",
+      "#ab9f6c"
+    ]
+  },
+  {
+    "painting": "autumn-glory.png",
+    "colors": [
+      "#c17a18",
+      "#f5f7f5",
+      "#a12a06",
+      "#500e05",
+      "#f5d85e"
+    ]
+  },
+  {
+    "painting": "autumn-images.png",
+    "colors": [
+      "#ced0d4",
+      "#837d3b",
+      "#34382d",
+      "#71808c",
+      "#594f26"
+    ]
+  },
+  {
+    "painting": "autumn-mountains.png",
+    "colors": [
+      "#ddd5e1",
+      "#958333",
+      "#38260c",
+      "#6f530c",
+      "#808a99"
+    ]
+  },
+  {
+    "painting": "autumn-oval.png",
+    "colors": [
+      "#774c20",
+      "#c0b8ba",
+      "#2d0f07",
+      "#c0903c",
+      "#ab9896"
+    ]
+  },
+  {
+    "painting": "autumn-palette.png",
+    "colors": [
+      "#4a482c",
+      "#cbd665",
+      "#9cc397",
+      "#9b863c",
+      "#789b9e"
+    ]
+  },
+  {
+    "painting": "autumn-splendor.png",
+    "colors": [
+      "#918945",
+      "#b7dae9",
+      "#210b08",
+      "#552906",
+      "#d1cd6f"
+    ]
+  },
+  {
+    "painting": "autumn-woods.png",
+    "colors": [
+      "#413d40",
+      "#5483c5",
+      "#90ace0",
+      "#d1d5e6",
+      "#856851"
+    ]
+  },
+  {
+    "painting": "babbling-brook.png",
+    "colors": [
+      "#bba689",
+      "#32210a",
+      "#7e5b2a",
+      "#60717c",
+      "#858771"
+    ]
+  },
+  {
+    "painting": "back-country.png",
+    "colors": [
+      "#1d1a13",
+      "#5b5f68",
+      "#4a451b",
+      "#625b1e",
+      "#545c22"
+    ]
+  },
+  {
+    "painting": "balmy-beach.png",
+    "colors": [
+      "#b8b1b1",
+      "#201925",
+      "#7e4a3e",
+      "#7b979e",
+      "#5d7f95"
+    ]
+  },
+  {
+    "painting": "barn-at-sunset.png",
+    "colors": [
+      "#dcc5c1",
+      "#31202b",
+      "#654e53",
+      "#7b7083",
+      "#ba9250"
+    ]
+  },
+  {
+    "painting": "barn-in-snow-oval.png",
+    "colors": [
+      "#a0a8b2",
+      "#30362c",
+      "#53574d",
+      "#4c4b44",
+      "#dae1dc"
+    ]
+  },
+  {
+    "painting": "before-the-snowfall.png",
+    "colors": [
+      "#717a8c",
+      "#181422",
+      "#242d4a",
+      "#d0cbd0",
+      "#a9cee4"
+    ]
+  },
+  {
+    "painting": "black-&-white-seascape.png",
+    "colors": [
+      "#4e7278",
+      "#081a2a",
+      "#b1cbbb",
+      "#8fbbba",
+      "#20403a"
+    ]
+  },
+  {
+    "painting": "black-river.png",
+    "colors": [
+      "#2b0b0c",
+      "#b76f37",
+      "#7a4013",
+      "#433c84",
+      "#947729"
+    ]
+  },
+  {
+    "painting": "black-seascape.png",
+    "colors": [
+      "#05123f",
+      "#527eb7",
+      "#275a93",
+      "#5982a0",
+      "#6e749c"
+    ]
+  },
+  {
+    "painting": "black-waterfall.png",
+    "colors": [
+      "#1a0e2a",
+      "#5665b2",
+      "#404285",
+      "#98a2c8",
+      "#8d7454"
+    ]
+  },
+  {
+    "painting": "blaze-of-color.png",
+    "colors": [
+      "#7d8d34",
+      "#b4a7ea",
+      "#18372b",
+      "#ecbf47",
+      "#54311c"
+    ]
+  },
+  {
+    "painting": "blue-moon.png",
+    "colors": [
+      "#060524",
+      "#60a0fa",
+      "#acdffb",
+      "#2a45de",
+      "#09158e"
+    ]
+  },
+  {
+    "painting": "blue-ridge-falls.png",
+    "colors": [
+      "#1e251d",
+      "#699faf",
+      "#4f6745",
+      "#718945",
+      "#7c7c68"
+    ]
+  },
+  {
+    "painting": "blue-river.png",
+    "colors": [
+      "#746645",
+      "#de9ed9",
+      "#7f70e0",
+      "#111421",
+      "#adbca7"
+    ]
+  },
+  {
+    "painting": "blue-winter.png",
+    "colors": [
+      "#bed4e8",
+      "#354c6f",
+      "#6b87af",
+      "#545c7b",
+      "#54646c"
+    ]
+  },
+  {
+    "painting": "bridge-to-autumn.png",
+    "colors": [
+      "#895930",
+      "#2d241e",
+      "#d3a873",
+      "#cf8b4d",
+      "#9b8984"
+    ]
+  },
+  {
+    "painting": "bright-autumn-trees.png",
+    "colors": [
+      "#161715",
+      "#ae9a6b",
+      "#445a71",
+      "#65501a",
+      "#788181"
+    ]
+  },
+  {
+    "painting": "brown-mountain.png",
+    "colors": [
+      "#374d1f",
+      "#d5ebdd",
+      "#9aceda",
+      "#709dc7",
+      "#987f24"
+    ]
+  },
+  {
+    "painting": "bubbling-brook.png",
+    "colors": [
+      "#abe1bf",
+      "#1e4a2b",
+      "#7ca619",
+      "#a3be59",
+      "#58542e"
+    ]
+  },
+  {
+    "painting": "bubbling-mountain-brook.png",
+    "colors": [
+      "#e6e0f3",
+      "#3f2a41",
+      "#b99554",
+      "#785b65",
+      "#9689c5"
+    ]
+  },
+  {
+    "painting": "bubbling-stream.png",
+    "colors": [
+      "#84871f",
+      "#b4cce0",
+      "#201f06",
+      "#4a3809",
+      "#cfd53f"
+    ]
+  },
+  {
+    "painting": "by-the-sea.png",
+    "colors": [
+      "#17141c",
+      "#605c61",
+      "#a9a5ab",
+      "#828d9c",
+      "#748982"
+    ]
+  },
+  {
+    "painting": "cabin-at-sunset.png",
+    "colors": [
+      "#424523",
+      "#e5bca1",
+      "#a48db5",
+      "#9a8747",
+      "#a9b0a0"
+    ]
+  },
+  {
+    "painting": "cabin-at-trails-end.png",
+    "colors": [
+      "#f4e9db",
+      "#321d08",
+      "#917832",
+      "#5f4a1a",
+      "#889182"
+    ]
+  },
+  {
+    "painting": "cabin-by-the-pond.png",
+    "colors": [
+      "#c4aec5",
+      "#75892d",
+      "#283b31",
+      "#63658d",
+      "#563736"
+    ]
+  },
+  {
+    "painting": "cabin-hideaway.png",
+    "colors": [
+      "#648bc2",
+      "#31292a",
+      "#bfc5cc",
+      "#92ccf6",
+      "#203260"
+    ]
+  },
+  {
+    "painting": "cabin-in-the-hollow.png",
+    "colors": [
+      "#3f495c",
+      "#d7d9cf",
+      "#958995",
+      "#79a1be",
+      "#a0c3ce"
+    ]
+  },
+  {
+    "painting": "cabin-in-the-woods.png",
+    "colors": [
+      "#696d52",
+      "#95d1b6",
+      "#cbddc4",
+      "#191914",
+      "#95a7b0"
+    ]
+  },
+  {
+    "painting": "cactus-at-sunset.png",
+    "colors": [
+      "#50130f",
+      "#ec6561",
+      "#fcd3b7",
+      "#9d6264",
+      "#b87460"
+    ]
+  },
+  {
+    "painting": "campers-haven.png",
+    "colors": [
+      "#313722",
+      "#a7a4cb",
+      "#b792a7",
+      "#7b7094",
+      "#8ea690"
+    ]
+  },
+  {
+    "painting": "campfire.png",
+    "colors": [
+      "#430704",
+      "#df4a05",
+      "#941e05",
+      "#a18e61",
+      "#705854"
+    ]
+  },
+  {
+    "painting": "change-of-seasons.png",
+    "colors": [
+      "#3f3221",
+      "#d5835d",
+      "#966d52",
+      "#83829f",
+      "#9eaabf"
+    ]
+  },
+  {
+    "painting": "christmas-eve-snow.png",
+    "colors": [
+      "#4b5d9d",
+      "#dfecf9",
+      "#a5c0fa",
+      "#0f1229",
+      "#93a3ec"
+    ]
+  },
+  {
+    "painting": "cliffside.png",
+    "colors": [
+      "#654847",
+      "#11080a",
+      "#ad7b6e",
+      "#808a9c",
+      "#9c8e8c"
+    ]
+  },
+  {
+    "painting": "cold-spring-day.png",
+    "colors": [
+      "#2f3744",
+      "#aeb9c7",
+      "#81a9c7",
+      "#678ab2",
+      "#727c87"
+    ]
+  },
+  {
+    "painting": "colors-of-nature.png",
+    "colors": [
+      "#596a49",
+      "#d0f1e7",
+      "#6894d8",
+      "#90cfd5",
+      "#142032"
+    ]
+  },
+  {
+    "painting": "contemplative-lady.png",
+    "colors": [
+      "#83560b",
+      "#190404",
+      "#b99e4e",
+      "#4c0b04",
+      "#b6862b"
+    ]
+  },
+  {
+    "painting": "cool-waters.png",
+    "colors": [
+      "#ddeaee",
+      "#834b17",
+      "#a4942b",
+      "#452f12",
+      "#89aaba"
+    ]
+  },
+  {
+    "painting": "copper-winter.png",
+    "colors": [
+      "#81583d",
+      "#1f1b1b",
+      "#c8ac95",
+      "#989e9f",
+      "#b7afa4"
+    ]
+  },
+  {
+    "painting": "country-cabin.png",
+    "colors": [
+      "#d2dcf1",
+      "#0f152f",
+      "#4e4f6f",
+      "#6687d2",
+      "#7f6b6c"
+    ]
+  },
+  {
+    "painting": "country-charm.png",
+    "colors": [
+      "#d4dedb",
+      "#c1a418",
+      "#3f3b61",
+      "#7e460a",
+      "#74a1e5"
+    ]
+  },
+  {
+    "painting": "country-creek.png",
+    "colors": [
+      "#36341f",
+      "#b7bd98",
+      "#81825e",
+      "#96a784",
+      "#87929c"
+    ]
+  },
+  {
+    "painting": "country-life.png",
+    "colors": [
+      "#6c3508",
+      "#d6e3f6",
+      "#120404",
+      "#94681b",
+      "#81a4ed"
+    ]
+  },
+  {
+    "painting": "country-time.png",
+    "colors": [
+      "#513725",
+      "#dfd8b9",
+      "#9c7e4e",
+      "#abb25e",
+      "#a194a3"
+    ]
+  },
+  {
+    "painting": "countryside-barn.png",
+    "colors": [
+      "#436d2b",
+      "#27150d",
+      "#107cbf",
+      "#c0ad96",
+      "#94bc91"
+    ]
+  },
+  {
+    "painting": "countryside-oval.png",
+    "colors": [
+      "#cfd3da",
+      "#3b3c23",
+      "#5981cc",
+      "#92c2e1",
+      "#85876a"
+    ]
+  },
+  {
+    "painting": "covered-bridge-oval.png",
+    "colors": [
+      "#b5aaaa",
+      "#180a0e",
+      "#5a3a3f",
+      "#70687b",
+      "#70614e"
+    ]
+  },
+  {
+    "painting": "covered-bridge.png",
+    "colors": [
+      "#af9825",
+      "#140c04",
+      "#4f290d",
+      "#5e5411",
+      "#e7be83"
+    ]
+  },
+  {
+    "painting": "crimson-oval.png",
+    "colors": [
+      "#b2712e",
+      "#3f1513",
+      "#f7d35a",
+      "#63241f",
+      "#caa9a3"
+    ]
+  },
+  {
+    "painting": "crimson-tide.png",
+    "colors": [
+      "#26152a",
+      "#ac7a7e",
+      "#7a566d",
+      "#8b707d",
+      "#8f7997"
+    ]
+  },
+  {
+    "painting": "cypress-creek.png",
+    "colors": [
+      "#281707",
+      "#a07237",
+      "#72471c",
+      "#7e6a64",
+      "#817456"
+    ]
+  },
+  {
+    "painting": "cypress-swamp.png",
+    "colors": [
+      "#58544a",
+      "#c8cede",
+      "#9c9db4",
+      "#aac3db",
+      "#948c8e"
+    ]
+  },
+  {
+    "painting": "daisies-at-dawn.png",
+    "colors": [
+      "#e7bc7b",
+      "#180d11",
+      "#8f4c33",
+      "#fafaf6",
+      "#c18e34"
+    ]
+  },
+  {
+    "painting": "daisy-delight.png",
+    "colors": [
+      "#605342",
+      "#06070a",
+      "#95897c",
+      "#80807c",
+      "#848c84"
+    ]
+  },
+  {
+    "painting": "dark-waterfall.png",
+    "colors": [
+      "#342822",
+      "#be9e87",
+      "#7278ac",
+      "#8d6a57",
+      "#99a3c6"
+    ]
+  },
+  {
+    "painting": "daybreak.png",
+    "colors": [
+      "#f1f5f7",
+      "#4f444f",
+      "#8c99b6",
+      "#776469",
+      "#b29a65"
+    ]
+  },
+  {
+    "painting": "days-gone-by.png",
+    "colors": [
+      "#4c6fb8",
+      "#151113",
+      "#26396b",
+      "#696886",
+      "#50648a"
+    ]
+  },
+  {
+    "painting": "deep-forest-falls.png",
+    "colors": [
+      "#11120f",
+      "#224e70",
+      "#4b491d",
+      "#807d4c",
+      "#4c768d"
+    ]
+  },
+  {
+    "painting": "deep-forest-lake.png",
+    "colors": [
+      "#1e2a17",
+      "#beae83",
+      "#6e7c47",
+      "#8ba970",
+      "#7a8e95"
+    ]
+  },
+  {
+    "painting": "deep-wilderness-home.png",
+    "colors": [
+      "#3b3f22",
+      "#848658",
+      "#b9ba9f",
+      "#9a9b9b",
+      "#a0b58e"
+    ]
+  },
+  {
+    "painting": "deep-woods.png",
+    "colors": [
+      "#b8a56c",
+      "#39321b",
+      "#574927",
+      "#f2f1cb",
+      "#766021"
+    ]
+  },
+  {
+    "painting": "delightful-meadow-home.png",
+    "colors": [
+      "#7b6936",
+      "#f6ed8d",
+      "#251306",
+      "#cba752",
+      "#d2ab9a"
+    ]
+  },
+  {
+    "painting": "desert-glow.png",
+    "colors": [
+      "#e1ae6b",
+      "#321a17",
+      "#fbf9f9",
+      "#8b575b",
+      "#f8e323"
+    ]
+  },
+  {
+    "painting": "desert-hues.png",
+    "colors": [
+      "#e4e7e8",
+      "#382e2c",
+      "#62524e",
+      "#84814b",
+      "#848fb2"
+    ]
+  },
+  {
+    "painting": "dimensions.png",
+    "colors": [
+      "#d3d8d7",
+      "#273832",
+      "#71833e",
+      "#7186a2",
+      "#575556"
+    ]
+  },
+  {
+    "painting": "distant-hills.png",
+    "colors": [
+      "#fae7e5",
+      "#9b583c",
+      "#d48e59",
+      "#dd928e",
+      "#a47474"
+    ]
+  },
+  {
+    "painting": "distant-mountains.png",
+    "colors": [
+      "#264638",
+      "#ddf6f2",
+      "#87ccc9",
+      "#68944b",
+      "#6d97b9"
+    ]
+  },
+  {
+    "painting": "divine-elegance.png",
+    "colors": [
+      "#6480bb",
+      "#193037",
+      "#c0c1d3",
+      "#172e65",
+      "#97bce9"
+    ]
+  },
+  {
+    "painting": "dock-scene.png",
+    "colors": [
+      "#ced6e8",
+      "#8d6e61",
+      "#200e17",
+      "#644947",
+      "#6e81bb"
+    ]
+  },
+  {
+    "painting": "double-oval-fantasy.png",
+    "colors": [
+      "#364639",
+      "#dde5cf",
+      "#7391d6",
+      "#98c4d3",
+      "#949f7e"
+    ]
+  },
+  {
+    "painting": "double-oval-stream.png",
+    "colors": [
+      "#6d5d39",
+      "#e9dfcc",
+      "#140d06",
+      "#9fc598",
+      "#aaa2a2"
+    ]
+  },
+  {
+    "painting": "double-take.png",
+    "colors": [
+      "#31577e",
+      "#090b0c",
+      "#504c4a",
+      "#2f4a42",
+      "#2a2a4a"
+    ]
+  },
+  {
+    "painting": "downstream-view.png",
+    "colors": [
+      "#2e4338",
+      "#d8e0f3",
+      "#89bbd2",
+      "#5b88be",
+      "#739165"
+    ]
+  },
+  {
+    "painting": "early-autumn.png",
+    "colors": [
+      "#3e352b",
+      "#f4f2ee",
+      "#80c4eb",
+      "#8495bb",
+      "#8e7f6a"
+    ]
+  },
+  {
+    "painting": "ebb-tide.png",
+    "colors": [
+      "#b4794e",
+      "#140615",
+      "#ccc164",
+      "#5f4356",
+      "#aa90b3"
+    ]
+  },
+  {
+    "painting": "ebony-sea.png",
+    "colors": [
+      "#3a1120",
+      "#cf8791",
+      "#534897",
+      "#8c3b37",
+      "#9b90a4"
+    ]
+  },
+  {
+    "painting": "ebony-sunset.png",
+    "colors": [
+      "#4a0704",
+      "#cc5404",
+      "#0b0404",
+      "#902704",
+      "#a36c17"
+    ]
+  },
+  {
+    "painting": "emerald-waters.png",
+    "colors": [
+      "#0f1b05",
+      "#8d8f18",
+      "#546109",
+      "#70860b",
+      "#6c6469"
+    ]
+  },
+  {
+    "painting": "enchanted-falls-oval.png",
+    "colors": [
+      "#6c5536",
+      "#d7bb83",
+      "#252111",
+      "#b4ac94",
+      "#b4a494"
+    ]
+  },
+  {
+    "painting": "enchanted-forest.png",
+    "colors": [
+      "#a07d8a",
+      "#f6e8df",
+      "#372016",
+      "#6c6128",
+      "#593347"
+    ]
+  },
+  {
+    "painting": "evening-at-sunset.png",
+    "colors": [
+      "#30150d",
+      "#b06015",
+      "#844522",
+      "#472e57",
+      "#8b7839"
+    ]
+  },
+  {
+    "painting": "evening-at-the-falls.png",
+    "colors": [
+      "#0d1026",
+      "#c2c2d7",
+      "#4a567a",
+      "#6b79a1",
+      "#808eb2"
+    ]
+  },
+  {
+    "painting": "evening-seascape.png",
+    "colors": [
+      "#272c42",
+      "#8bc0c5",
+      "#6a8b91",
+      "#6796bd",
+      "#bcd8c9"
+    ]
+  },
+  {
+    "painting": "evening-waterfall.png",
+    "colors": [
+      "#07131c",
+      "#357099",
+      "#2c532f",
+      "#788e3c",
+      "#866f73"
+    ]
+  },
+  {
+    "painting": "evenings-glow.png",
+    "colors": [
+      "#c48a3f",
+      "#311b15",
+      "#674a14",
+      "#5d2e1a",
+      "#eacb8f"
+    ]
+  },
+  {
+    "painting": "evenings-peace.png",
+    "colors": [
+      "#1f2a6a",
+      "#7283bf",
+      "#050410",
+      "#8285a6",
+      "#827a90"
+    ]
+  },
+  {
+    "painting": "evergreen-valley.png",
+    "colors": [
+      "#668da6",
+      "#141212",
+      "#887485",
+      "#646679",
+      "#718492"
+    ]
+  },
+  {
+    "painting": "evergreens-at-sunset.png",
+    "colors": [
+      "#271f2c",
+      "#d5a45a",
+      "#8c6a53",
+      "#a6a082",
+      "#919496"
+    ]
+  },
+  {
+    "painting": "fall-stream.png",
+    "colors": [
+      "#515443",
+      "#dce7d3",
+      "#8adbf4",
+      "#798bd5",
+      "#9e985e"
+    ]
+  },
+  {
+    "painting": "falls-in-the-glen.png",
+    "colors": [
+      "#0f1323",
+      "#b19887",
+      "#5d5359",
+      "#756783",
+      "#75854b"
+    ]
+  },
+  {
+    "painting": "final-embers-of-sunlight.png",
+    "colors": [
+      "#c4b0a9",
+      "#1d0d07",
+      "#764d36",
+      "#89955b",
+      "#846f93"
+    ]
+  },
+  {
+    "painting": "final-grace.png",
+    "colors": [
+      "#7290ab",
+      "#071915",
+      "#cbd4d7",
+      "#3e6a19",
+      "#adcecc"
+    ]
+  },
+  {
+    "painting": "final-reflections.png",
+    "colors": [
+      "#93913b",
+      "#d9f2f6",
+      "#2b3307",
+      "#5c4e0f",
+      "#c8d098"
+    ]
+  },
+  {
+    "painting": "first-snow.png",
+    "colors": [
+      "#b0afce",
+      "#222729",
+      "#627296",
+      "#47484e",
+      "#555e4a"
+    ]
+  },
+  {
+    "painting": "fishermans-paradise.png",
+    "colors": [
+      "#e0c78f",
+      "#47382a",
+      "#795a3e",
+      "#fafbfa",
+      "#9d763d"
+    ]
+  },
+  {
+    "painting": "fishermans-trail.png",
+    "colors": [
+      "#2c2d24",
+      "#b8815c",
+      "#905c36",
+      "#878b9c",
+      "#a0a6a4"
+    ]
+  },
+  {
+    "painting": "floridas-glory.png",
+    "colors": [
+      "#6c85b3",
+      "#3b242c",
+      "#b46770",
+      "#372f60",
+      "#244875"
+    ]
+  },
+  {
+    "painting": "foot-of-the-mountain.png",
+    "colors": [
+      "#f3eee7",
+      "#6d5c5b",
+      "#a0876d",
+      "#af9890",
+      "#7f7a82"
+    ]
+  },
+  {
+    "painting": "forest-dawn-oval.png",
+    "colors": [
+      "#eddfe7",
+      "#1f2a3a",
+      "#69597f",
+      "#678321",
+      "#4d3b5e"
+    ]
+  },
+  {
+    "painting": "forest-edge.png",
+    "colors": [
+      "#2b3110",
+      "#95bd36",
+      "#698520",
+      "#868451",
+      "#52556a"
+    ]
+  },
+  {
+    "painting": "forest-hills.png",
+    "colors": [
+      "#e4e8ee",
+      "#1d2737",
+      "#879c33",
+      "#525468",
+      "#7181ae"
+    ]
+  },
+  {
+    "painting": "forest-river.png",
+    "colors": [
+      "#30474c",
+      "#6ad4f2",
+      "#3684c3",
+      "#708853",
+      "#b8bc9e"
+    ]
+  },
+  {
+    "painting": "frosty-winter-morn.png",
+    "colors": [
+      "#7ba8da",
+      "#cdd6e0",
+      "#25182e",
+      "#725b4e",
+      "#2c4e80"
+    ]
+  },
+  {
+    "painting": "frozen-beauty-in-vignette.png",
+    "colors": [
+      "#5b84ca",
+      "#c2cde2",
+      "#0d1f5d",
+      "#a5c4eb",
+      "#544e35"
+    ]
+  },
+  {
+    "painting": "frozen-solitude.png",
+    "colors": [
+      "#6381b1",
+      "#c8dcf6",
+      "#abc7f1",
+      "#090c20",
+      "#0c2e5e"
+    ]
+  },
+  {
+    "painting": "glacier-lake.png",
+    "colors": [
+      "#8fa4bd",
+      "#1e345a",
+      "#d2d2dc",
+      "#49455b",
+      "#575c52"
+    ]
+  },
+  {
+    "painting": "golden-glow-of-morning.png",
+    "colors": [
+      "#865746",
+      "#f8e26a",
+      "#371412",
+      "#eb8f76",
+      "#eba89e"
+    ]
+  },
+  {
+    "painting": "golden-glow.png",
+    "colors": [
+      "#332712",
+      "#ead776",
+      "#f8eed0",
+      "#805b15",
+      "#bc8e23"
+    ]
+  },
+  {
+    "painting": "golden-knoll.png",
+    "colors": [
+      "#9d7227",
+      "#18110b",
+      "#f9df84",
+      "#fae2c4",
+      "#622d09"
+    ]
+  },
+  {
+    "painting": "golden-mist-oval.png",
+    "colors": [
+      "#8a5b5b",
+      "#280d19",
+      "#b9b1b9",
+      "#573416",
+      "#bfa18f"
+    ]
+  },
+  {
+    "painting": "golden-morning-mist.png",
+    "colors": [
+      "#835527",
+      "#fbe493",
+      "#3d1308",
+      "#dc9e5a",
+      "#c295a1"
+    ]
+  },
+  {
+    "painting": "golden-rays-of-sunlight.png",
+    "colors": [
+      "#3f729a",
+      "#141e1f",
+      "#0e2547",
+      "#244252",
+      "#7facbf"
+    ]
+  },
+  {
+    "painting": "golden-sunset.png",
+    "colors": [
+      "#836249",
+      "#f6e165",
+      "#241b1f",
+      "#9790ad",
+      "#da9758"
+    ]
+  },
+  {
+    "painting": "graceful-mountains.png",
+    "colors": [
+      "#445251",
+      "#73a0de",
+      "#dfefed",
+      "#9dcbee",
+      "#88a462"
+    ]
+  },
+  {
+    "painting": "graceful-waterfall.png",
+    "colors": [
+      "#252a1a",
+      "#c2d1b6",
+      "#60b4ce",
+      "#746d37",
+      "#3382a1"
+    ]
+  },
+  {
+    "painting": "grandpas-barn.png",
+    "colors": [
+      "#877f46",
+      "#f2ecc7",
+      "#201708",
+      "#decf98",
+      "#5d2f0e"
+    ]
+  },
+  {
+    "painting": "gray-mountain.png",
+    "colors": [
+      "#374539",
+      "#c18c5c",
+      "#95665a",
+      "#8395b1",
+      "#9fb195"
+    ]
+  },
+  {
+    "painting": "grey-winter.png",
+    "colors": [
+      "#dfd4e7",
+      "#42335b",
+      "#7f749c",
+      "#66597c",
+      "#746769"
+    ]
+  },
+  {
+    "painting": "half-oval-vignette.png",
+    "colors": [
+      "#cbebf0",
+      "#34381d",
+      "#706443",
+      "#98914a",
+      "#7b9698"
+    ]
+  },
+  {
+    "painting": "happy-accident.png",
+    "colors": [
+      "#6e5e52",
+      "#a0c5bc",
+      "#6c9fb5",
+      "#b89062",
+      "#1e141b"
+    ]
+  },
+  {
+    "painting": "haven-in-the-valley.png",
+    "colors": [
+      "#c0c0ba",
+      "#1b4130",
+      "#556e30",
+      "#61747f",
+      "#485146"
+    ]
+  },
+  {
+    "painting": "hazy-day.png",
+    "colors": [
+      "#b2a6a0",
+      "#2f1307",
+      "#50350f",
+      "#685525",
+      "#665a69"
+    ]
+  },
+  {
+    "painting": "hidden-creek.png",
+    "colors": [
+      "#1f2e24",
+      "#a9bfc0",
+      "#82a36e",
+      "#637a73",
+      "#7c8b85"
+    ]
+  },
+  {
+    "painting": "hidden-delight.png",
+    "colors": [
+      "#25170b",
+      "#9b813f",
+      "#685526",
+      "#6f686d",
+      "#7b746c"
+    ]
+  },
+  {
+    "painting": "hidden-lake.png",
+    "colors": [
+      "#a9922a",
+      "#c0c8ec",
+      "#443512",
+      "#704443",
+      "#e4df45"
+    ]
+  },
+  {
+    "painting": "hidden-stream.png",
+    "colors": [
+      "#303130",
+      "#889bbf",
+      "#586788",
+      "#939c8a",
+      "#8d8880"
+    ]
+  },
+  {
+    "painting": "hidden-winter-moon-oval.png",
+    "colors": [
+      "#f5f7f9",
+      "#333b76",
+      "#99b3dd",
+      "#7080c5",
+      "#040412"
+    ]
+  },
+  {
+    "painting": "hide-a-way-cove.png",
+    "colors": [
+      "#78866f",
+      "#e7c9b1",
+      "#9aa1c1",
+      "#232f23",
+      "#314b3d"
+    ]
+  },
+  {
+    "painting": "high-chateau.png",
+    "colors": [
+      "#a1907e",
+      "#2a2125",
+      "#e7e6e3",
+      "#b0840f",
+      "#643220"
+    ]
+  },
+  {
+    "painting": "high-tide.png",
+    "colors": [
+      "#cccb8f",
+      "#404030",
+      "#f2f1e1",
+      "#68604d",
+      "#868631"
+    ]
+  },
+  {
+    "painting": "hint-of-springtime.png",
+    "colors": [
+      "#37433b",
+      "#d5bac7",
+      "#95c0e4",
+      "#779bc8",
+      "#8f8d81"
+    ]
+  },
+  {
+    "painting": "home-before-nightfall.png",
+    "colors": [
+      "#251c17",
+      "#074380",
+      "#894514",
+      "#5f3016",
+      "#3c7ca4"
+    ]
+  },
+  {
+    "painting": "home-in-the-valley.png",
+    "colors": [
+      "#3f9cd2",
+      "#22361b",
+      "#83c0d5",
+      "#578c75",
+      "#77441d"
+    ]
+  },
+  {
+    "painting": "horizons-west.png",
+    "colors": [
+      "#f9ebca",
+      "#450513",
+      "#b72220",
+      "#f4c77d",
+      "#ed9041"
+    ]
+  },
+  {
+    "painting": "hunters-haven.png",
+    "colors": [
+      "#e9dde6",
+      "#401919",
+      "#b37f50",
+      "#7f502e",
+      "#9b81a6"
+    ]
+  },
+  {
+    "painting": "icy-lake.png",
+    "colors": [
+      "#9d92a5",
+      "#ebe9eb",
+      "#3b3656",
+      "#4f516e",
+      "#615261"
+    ]
+  },
+  {
+    "painting": "in-the-midst-of-winter.png",
+    "colors": [
+      "#697487",
+      "#191218",
+      "#beb9bb",
+      "#a3b4bc",
+      "#a8acc4"
+    ]
+  },
+  {
+    "painting": "in-the-stillness-of-morning.png",
+    "colors": [
+      "#89acd4",
+      "#243021",
+      "#657593",
+      "#8fa0a0",
+      "#8c919c"
+    ]
+  },
+  {
+    "painting": "indian-girl.png",
+    "colors": [
+      "#fac01a",
+      "#c93a04",
+      "#f2e9b7",
+      "#f36f06",
+      "#927127"
+    ]
+  },
+  {
+    "painting": "indian-summer.png",
+    "colors": [
+      "#302514",
+      "#707985",
+      "#b2895d",
+      "#816538",
+      "#878f94"
+    ]
+  },
+  {
+    "painting": "island-in-the-wilderness.png",
+    "colors": [
+      "#192d27",
+      "#b394a9",
+      "#387da4",
+      "#68a5bb",
+      "#5d773d"
+    ]
+  },
+  {
+    "painting": "island-paradise.png",
+    "colors": [
+      "#333f4b",
+      "#c1c0c5",
+      "#aaacaf",
+      "#8a7f70",
+      "#a1a2ac"
+    ]
+  },
+  {
+    "painting": "just-before-the-storm.png",
+    "colors": [
+      "#2c3943",
+      "#f0f4f4",
+      "#5f7b97",
+      "#95b5d2",
+      "#7896be"
+    ]
+  },
+  {
+    "painting": "lake-at-the-ridge.png",
+    "colors": [
+      "#50685f",
+      "#bec1bf",
+      "#18212f",
+      "#839bc1",
+      "#9ebe96"
+    ]
+  },
+  {
+    "painting": "lake-by-mountain.png",
+    "colors": [
+      "#d3d9f1",
+      "#1e2936",
+      "#4d4f54",
+      "#787758",
+      "#6b818d"
+    ]
+  },
+  {
+    "painting": "lake-in-the-valley.png",
+    "colors": [
+      "#252d22",
+      "#8a8fb3",
+      "#c79d32",
+      "#726731",
+      "#8c9404"
+    ]
+  },
+  {
+    "painting": "lake-view.png",
+    "colors": [
+      "#c9ecf0",
+      "#232924",
+      "#686c52",
+      "#939e60",
+      "#7aa7b9"
+    ]
+  },
+  {
+    "painting": "lakeside-cabin.png",
+    "colors": [
+      "#7b7b36",
+      "#a9e1f6",
+      "#1f241b",
+      "#d0c94f",
+      "#4a3d2a"
+    ]
+  },
+  {
+    "painting": "lakeside-path.png",
+    "colors": [
+      "#505347",
+      "#c4d1cb",
+      "#7ca1bd",
+      "#9fc0d2",
+      "#8c977e"
+    ]
+  },
+  {
+    "painting": "lazy-river.png",
+    "colors": [
+      "#6e7a3f",
+      "#d8e2cb",
+      "#6ca8da",
+      "#99ccc2",
+      "#271108"
+    ]
+  },
+  {
+    "painting": "light-at-the-summit.png",
+    "colors": [
+      "#172714",
+      "#4693a0",
+      "#59582e",
+      "#517950",
+      "#044276"
+    ]
+  },
+  {
+    "painting": "little-home-in-the-meadow.png",
+    "colors": [
+      "#28351f",
+      "#bbc0c8",
+      "#5f87a8",
+      "#99a4ac",
+      "#a68496"
+    ]
+  },
+  {
+    "painting": "little-house-by-the-road.png",
+    "colors": [
+      "#d7dcc9",
+      "#2b2543",
+      "#d6ca50",
+      "#81585e",
+      "#8287b4"
+    ]
+  },
+  {
+    "painting": "lone-mountain.png",
+    "colors": [
+      "#b0bf90",
+      "#0a1917",
+      "#68a2b9",
+      "#5775a2",
+      "#4d5c5f"
+    ]
+  },
+  {
+    "painting": "lonely-retreat.png",
+    "colors": [
+      "#d2cce2",
+      "#1d0f22",
+      "#74433c",
+      "#ae6956",
+      "#727bb1"
+    ]
+  },
+  {
+    "painting": "lost-lake.png",
+    "colors": [
+      "#9ca6d2",
+      "#293f2a",
+      "#9cae5f",
+      "#ad887c",
+      "#708742"
+    ]
+  },
+  {
+    "painting": "magic-of-fall.png",
+    "colors": [
+      "#804f25",
+      "#7da9b2",
+      "#2b130c",
+      "#b19c63",
+      "#c08228"
+    ]
+  },
+  {
+    "painting": "majestic-mountains.png",
+    "colors": [
+      "#54523e",
+      "#dde4eb",
+      "#829cdb",
+      "#9bb9d7",
+      "#8e8b6a"
+    ]
+  },
+  {
+    "painting": "majestic-peaks.png",
+    "colors": [
+      "#bdd1d9",
+      "#869630",
+      "#2f3619",
+      "#5a5748",
+      "#737f93"
+    ]
+  },
+  {
+    "painting": "majestic-pine.png",
+    "colors": [
+      "#a37c51",
+      "#3e1f11",
+      "#efdfdf",
+      "#613c17",
+      "#f3cc80"
+    ]
+  },
+  {
+    "painting": "marshlands.png",
+    "colors": [
+      "#b7cd82",
+      "#46664c",
+      "#c0f0e7",
+      "#93a623",
+      "#635c40"
+    ]
+  },
+  {
+    "painting": "meadow-brook-surprise.png",
+    "colors": [
+      "#babedd",
+      "#7a8744",
+      "#25323f",
+      "#64678f",
+      "#4d4a58"
+    ]
+  },
+  {
+    "painting": "meadow-brook.png",
+    "colors": [
+      "#4c582f",
+      "#b9cbe3",
+      "#1a231b",
+      "#4078cc",
+      "#6d7278"
+    ]
+  },
+  {
+    "painting": "meadow-lake.png",
+    "colors": [
+      "#d2ecf3",
+      "#203a17",
+      "#99a930",
+      "#605c1b",
+      "#73a8e2"
+    ]
+  },
+  {
+    "painting": "meadow-road.png",
+    "colors": [
+      "#9a9820",
+      "#e1e3f6",
+      "#1b1a16",
+      "#534c3c",
+      "#758fd7"
+    ]
+  },
+  {
+    "painting": "meadow-stream.png",
+    "colors": [
+      "#eff4df",
+      "#4d622c",
+      "#dde657",
+      "#cde320",
+      "#8d6832"
+    ]
+  },
+  {
+    "painting": "mighty-mountain-lake.png",
+    "colors": [
+      "#2f3c3a",
+      "#c0d6e5",
+      "#95bddf",
+      "#688fc8",
+      "#838988"
+    ]
+  },
+  {
+    "painting": "mirrored-images.png",
+    "colors": [
+      "#3b5471",
+      "#80b1d1",
+      "#1e271e",
+      "#7c99ad",
+      "#8a7e7a"
+    ]
+  },
+  {
+    "painting": "misty-foothills.png",
+    "colors": [
+      "#2f282a",
+      "#95b6cb",
+      "#82a2b0",
+      "#537799",
+      "#887c8e"
+    ]
+  },
+  {
+    "painting": "misty-forest-oval.png",
+    "colors": [
+      "#f8f7f8",
+      "#202532",
+      "#72686d",
+      "#8ca157",
+      "#9980ae"
+    ]
+  },
+  {
+    "painting": "misty-rolling-hills.png",
+    "colors": [
+      "#39203d",
+      "#f9e7ed",
+      "#925485",
+      "#c09d63",
+      "#c289b8"
+    ]
+  },
+  {
+    "painting": "misty-waterfall.png",
+    "colors": [
+      "#c7c2bd",
+      "#130b12",
+      "#947e22",
+      "#5b3f39",
+      "#716376"
+    ]
+  },
+  {
+    "painting": "morning-mist.png",
+    "colors": [
+      "#e2e8db",
+      "#516048",
+      "#839b8d",
+      "#7e914b",
+      "#6c5c4c"
+    ]
+  },
+  {
+    "painting": "morning-walk.png",
+    "colors": [
+      "#0e0812",
+      "#a19998",
+      "#79787c",
+      "#584b51",
+      "#685a70"
+    ]
+  },
+  {
+    "painting": "mountain-at-sunset.png",
+    "colors": [
+      "#cb9464",
+      "#1b1008",
+      "#7f979a",
+      "#7c4a1e",
+      "#4f7ba9"
+    ]
+  },
+  {
+    "painting": "mountain-beauty.png",
+    "colors": [
+      "#cfe1ee",
+      "#252e2c",
+      "#758fa4",
+      "#8e944d",
+      "#685928"
+    ]
+  },
+  {
+    "painting": "mountain-blossoms.png",
+    "colors": [
+      "#eae3f1",
+      "#4e3959",
+      "#8b5980",
+      "#9085b4",
+      "#847474"
+    ]
+  },
+  {
+    "painting": "mountain-by-the-sea.png",
+    "colors": [
+      "#d7e4f9",
+      "#11154e",
+      "#59444e",
+      "#638df4",
+      "#9a8e19"
+    ]
+  },
+  {
+    "painting": "mountain-cabin.png",
+    "colors": [
+      "#43463c",
+      "#c3cecb",
+      "#94bac0",
+      "#897a44",
+      "#7592b1"
+    ]
+  },
+  {
+    "painting": "mountain-challenge.png",
+    "colors": [
+      "#c9dddf",
+      "#1f3b2f",
+      "#648142",
+      "#55503e",
+      "#66918a"
+    ]
+  },
+  {
+    "painting": "mountain-exhibition.png",
+    "colors": [
+      "#273843",
+      "#86c1e1",
+      "#b2d0e5",
+      "#5c88bb",
+      "#6d8498"
+    ]
+  },
+  {
+    "painting": "mountain-glory.png",
+    "colors": [
+      "#c6cecf",
+      "#191520",
+      "#9a9318",
+      "#6b71a4",
+      "#524244"
+    ]
+  },
+  {
+    "painting": "mountain-hide-away.png",
+    "colors": [
+      "#141c0e",
+      "#e3e9f3",
+      "#99af24",
+      "#5d5130",
+      "#7a8ecb"
+    ]
+  },
+  {
+    "painting": "mountain-in-an-oval.png",
+    "colors": [
+      "#c7b6ca",
+      "#0e2325",
+      "#6174a1",
+      "#576220",
+      "#4c4a49"
+    ]
+  },
+  {
+    "painting": "mountain-lake-falls.png",
+    "colors": [
+      "#638fa9",
+      "#1c281b",
+      "#516477",
+      "#88808e",
+      "#8d9089"
+    ]
+  },
+  {
+    "painting": "mountain-lake.png",
+    "colors": [
+      "#ced9e9",
+      "#2e3724",
+      "#7c8b4e",
+      "#64561d",
+      "#7b91a6"
+    ]
+  },
+  {
+    "painting": "mountain-mirage.png",
+    "colors": [
+      "#7d879c",
+      "#cba6ac",
+      "#1a2026",
+      "#414849",
+      "#2e475f"
+    ]
+  },
+  {
+    "painting": "mountain-moonlight-oval.png",
+    "colors": [
+      "#f2f5f7",
+      "#152138",
+      "#4d588b",
+      "#6875bc",
+      "#8c9bca"
+    ]
+  },
+  {
+    "painting": "mountain-oval.png",
+    "colors": [
+      "#20516b",
+      "#e6e9fa",
+      "#7d99d4",
+      "#666994",
+      "#6caa5a"
+    ]
+  },
+  {
+    "painting": "mountain-path.png",
+    "colors": [
+      "#2a2c26",
+      "#ececf2",
+      "#a2a32d",
+      "#635b50",
+      "#8b8eb2"
+    ]
+  },
+  {
+    "painting": "mountain-range.png",
+    "colors": [
+      "#2f2d26",
+      "#ede3f4",
+      "#6b5d4a",
+      "#8d844c",
+      "#8f8bac"
+    ]
+  },
+  {
+    "painting": "mountain-reflections.png",
+    "colors": [
+      "#1f3310",
+      "#d1eaef",
+      "#8bd1f1",
+      "#5591d1",
+      "#719616"
+    ]
+  },
+  {
+    "painting": "mountain-retreat.png",
+    "colors": [
+      "#6d6e40",
+      "#1a1c06",
+      "#a0a9b6",
+      "#be9977",
+      "#4a290f"
+    ]
+  },
+  {
+    "painting": "mountain-rhapsody.png",
+    "colors": [
+      "#ddc4c2",
+      "#492d4c",
+      "#745666",
+      "#c29778",
+      "#ad6f4f"
+    ]
+  },
+  {
+    "painting": "mountain-ridge-lake.png",
+    "colors": [
+      "#3c4a24",
+      "#c8e6f6",
+      "#6399d4",
+      "#93c7e9",
+      "#7e9444"
+    ]
+  },
+  {
+    "painting": "mountain-river.png",
+    "colors": [
+      "#3e5459",
+      "#e5ece7",
+      "#99cbe6",
+      "#71a2e2",
+      "#95937b"
+    ]
+  },
+  {
+    "painting": "mountain-seclusion.png",
+    "colors": [
+      "#34374f",
+      "#c8d1dc",
+      "#758cbf",
+      "#99b8e1",
+      "#867c78"
+    ]
+  },
+  {
+    "painting": "mountain-serenity.png",
+    "colors": [
+      "#707792",
+      "#1f2221",
+      "#ba9db2",
+      "#9dbed3",
+      "#9ab4d4"
+    ]
+  },
+  {
+    "painting": "mountain-splendor.png",
+    "colors": [
+      "#ac9778",
+      "#35292b",
+      "#eee3d4",
+      "#583d3c",
+      "#736621"
+    ]
+  },
+  {
+    "painting": "mountain-stream.png",
+    "colors": [
+      "#6283a9",
+      "#071109",
+      "#1f4e6e",
+      "#6b7788",
+      "#65697c"
+    ]
+  },
+  {
+    "painting": "mountain-summit.png",
+    "colors": [
+      "#2c492c",
+      "#c5e2f3",
+      "#5995db",
+      "#8ac9eb",
+      "#709b46"
+    ]
+  },
+  {
+    "painting": "mountain-view.png",
+    "colors": [
+      "#4c4c30",
+      "#949fc8",
+      "#c88f80",
+      "#869c62",
+      "#607b8a"
+    ]
+  },
+  {
+    "painting": "mountain-waterfall.png",
+    "colors": [
+      "#38391c",
+      "#758db5",
+      "#b49897",
+      "#7d9041",
+      "#9ab6b3"
+    ]
+  },
+  {
+    "painting": "mountains-of-grace.png",
+    "colors": [
+      "#4b7fa5",
+      "#3e4f2b",
+      "#aec4d7",
+      "#a3abbe",
+      "#1a2e59"
+    ]
+  },
+  {
+    "painting": "mt-mckinley.png",
+    "colors": [
+      "#3a4528",
+      "#e9f1f7",
+      "#716827",
+      "#8d9941",
+      "#8ea4c6"
+    ]
+  },
+  {
+    "painting": "mystic-mountain.png",
+    "colors": [
+      "#c3e9f2",
+      "#1b3b1b",
+      "#65a3c6",
+      "#649b27",
+      "#4f674e"
+    ]
+  },
+  {
+    "painting": "natural-wonder.png",
+    "colors": [
+      "#445455",
+      "#c4f3f3",
+      "#86dcf7",
+      "#609ded",
+      "#82978d"
+    ]
+  },
+  {
+    "painting": "natures-edge.png",
+    "colors": [
+      "#deebe6",
+      "#c7a932",
+      "#88410a",
+      "#501a14",
+      "#8cbae6"
+    ]
+  },
+  {
+    "painting": "natures-paradise.png",
+    "colors": [
+      "#e8dae7",
+      "#38202d",
+      "#cfb70b",
+      "#dbc468",
+      "#7b5045"
+    ]
+  },
+  {
+    "painting": "natures-splendor.png",
+    "colors": [
+      "#342a32",
+      "#d0b9b3",
+      "#8482b5",
+      "#837380",
+      "#91afd5"
+    ]
+  },
+  {
+    "painting": "nestled-cabin.png",
+    "colors": [
+      "#414c2a",
+      "#cab453",
+      "#95b361",
+      "#879256",
+      "#749190"
+    ]
+  },
+  {
+    "painting": "new-days-dawn.png",
+    "colors": [
+      "#3e2d0c",
+      "#d69e5f",
+      "#975f33",
+      "#5b5566",
+      "#ac944c"
+    ]
+  },
+  {
+    "painting": "night-light.png",
+    "colors": [
+      "#cba597",
+      "#0e0c1a",
+      "#7a9bca",
+      "#5563a1",
+      "#6b2610"
+    ]
+  },
+  {
+    "painting": "northern-lights.png",
+    "colors": [
+      "#d0dff8",
+      "#07052b",
+      "#7296f2",
+      "#475dcb",
+      "#1f2789"
+    ]
+  },
+  {
+    "painting": "northwest-majesty.png",
+    "colors": [
+      "#dccfe1",
+      "#a89122",
+      "#3f3e08",
+      "#7e4e0c",
+      "#a582a4"
+    ]
+  },
+  {
+    "painting": "not-quite-spring.png",
+    "colors": [
+      "#353834",
+      "#d9dce4",
+      "#a7b5c7",
+      "#8992a6",
+      "#8a867b"
+    ]
+  },
+  {
+    "painting": "ocean-breeze.png",
+    "colors": [
+      "#6f83c2",
+      "#e3d3f5",
+      "#0d0d39",
+      "#aec9f9",
+      "#16367c"
+    ]
+  },
+  {
+    "painting": "ocean-sunrise.png",
+    "colors": [
+      "#f8e6ea",
+      "#17161e",
+      "#976780",
+      "#e8b56b",
+      "#748494"
+    ]
+  },
+  {
+    "painting": "ocean-sunset.png",
+    "colors": [
+      "#e4c7b2",
+      "#1f2263",
+      "#7676b5",
+      "#9a4228",
+      "#e8a024"
+    ]
+  },
+  {
+    "painting": "old-country-mill.png",
+    "colors": [
+      "#c79c70",
+      "#432926",
+      "#f8eade",
+      "#6f483d",
+      "#865e26"
+    ]
+  },
+  {
+    "painting": "on-a-clear-day.png",
+    "colors": [
+      "#332d46",
+      "#e1dad6",
+      "#f3ce6b",
+      "#876677",
+      "#e6d950"
+    ]
+  },
+  {
+    "painting": "oriental-falls.png",
+    "colors": [
+      "#bfc2b0",
+      "#2e2d15",
+      "#72713a",
+      "#514d2b",
+      "#707362"
+    ]
+  },
+  {
+    "painting": "oval-barn.png",
+    "colors": [
+      "#c6d6ed",
+      "#2f4d72",
+      "#6788b5",
+      "#576072",
+      "#646e68"
+    ]
+  },
+  {
+    "painting": "oval-essence.png",
+    "colors": [
+      "#b2c2d0",
+      "#091133",
+      "#1f5d8d",
+      "#508fa4",
+      "#77788d"
+    ]
+  },
+  {
+    "painting": "pastel-seascape.png",
+    "colors": [
+      "#bd9592",
+      "#4c6183",
+      "#efe4ab",
+      "#d0874c",
+      "#66404e"
+    ]
+  },
+  {
+    "painting": "pastel-winter.png",
+    "colors": [
+      "#614c55",
+      "#c9a144",
+      "#90778f",
+      "#160714",
+      "#a49cac"
+    ]
+  },
+  {
+    "painting": "pathway-to-autumn.png",
+    "colors": [
+      "#8e7234",
+      "#9be3e0",
+      "#7cadc5",
+      "#20221f",
+      "#d0a246"
+    ]
+  },
+  {
+    "painting": "peaceful-haven.png",
+    "colors": [
+      "#7dcae2",
+      "#cef8f8",
+      "#1b2934",
+      "#61714a",
+      "#2c5d87"
+    ]
+  },
+  {
+    "painting": "peaceful-reflections.png",
+    "colors": [
+      "#2b4b37",
+      "#ebf7e8",
+      "#a2e0cc",
+      "#6e93bc",
+      "#8d9e33"
+    ]
+  },
+  {
+    "painting": "peaceful-valley.png",
+    "colors": [
+      "#cfd4e6",
+      "#192a27",
+      "#74984b",
+      "#525661",
+      "#737d9c"
+    ]
+  },
+  {
+    "painting": "peaceful-waters.png",
+    "colors": [
+      "#87b3f5",
+      "#858010",
+      "#1a3527",
+      "#514b53",
+      "#e3f1fa"
+    ]
+  },
+  {
+    "painting": "peaks-of-majesty.png",
+    "colors": [
+      "#1c3029",
+      "#e0c5d2",
+      "#7b838e",
+      "#8f9053",
+      "#664b4f"
+    ]
+  },
+  {
+    "painting": "perfect-winters-day.png",
+    "colors": [
+      "#6886a7",
+      "#14162f",
+      "#243255",
+      "#bbc0cd",
+      "#a6c8e2"
+    ]
+  },
+  {
+    "painting": "portrait-of-sally.png",
+    "colors": [
+      "#b7ab7b",
+      "#232c2e",
+      "#f7efd8",
+      "#5d5046",
+      "#808826"
+    ]
+  },
+  {
+    "painting": "portrait-of-winter.png",
+    "colors": [
+      "#4e84b0",
+      "#bbd8e8",
+      "#8cc6e4",
+      "#050819",
+      "#162e58"
+    ]
+  },
+  {
+    "painting": "pot-o-posies.png",
+    "colors": [
+      "#100504",
+      "#760905",
+      "#490605",
+      "#3c4413",
+      "#3c3434"
+    ]
+  },
+  {
+    "painting": "purple-haze.png",
+    "colors": [
+      "#484149",
+      "#c4a9ca",
+      "#7f6e95",
+      "#b58e82",
+      "#8ea553"
+    ]
+  },
+  {
+    "painting": "purple-mountain-range.png",
+    "colors": [
+      "#393b3e",
+      "#d2e0e7",
+      "#88defa",
+      "#9092b9",
+      "#977880"
+    ]
+  },
+  {
+    "painting": "purple-splendor.png",
+    "colors": [
+      "#dacfee",
+      "#430e31",
+      "#754686",
+      "#8970a8",
+      "#7f7466"
+    ]
+  },
+  {
+    "painting": "quiet-cove.png",
+    "colors": [
+      "#58561e",
+      "#cecf75",
+      "#b0b884",
+      "#979346",
+      "#99998a"
+    ]
+  },
+  {
+    "painting": "quiet-inlet.png",
+    "colors": [
+      "#d9e8e8",
+      "#8c8a1b",
+      "#34260c",
+      "#60480f",
+      "#7c94b4"
+    ]
+  },
+  {
+    "painting": "quiet-mountain-lake.png",
+    "colors": [
+      "#a7a5bb",
+      "#0b100d",
+      "#3b364f",
+      "#898369",
+      "#697942"
+    ]
+  },
+  {
+    "painting": "quiet-mountain-river.png",
+    "colors": [
+      "#d0b4ce",
+      "#1f3214",
+      "#807fa5",
+      "#70722f",
+      "#99b298"
+    ]
+  },
+  {
+    "painting": "quiet-pond.png",
+    "colors": [
+      "#e2c44d",
+      "#f2f0e4",
+      "#4c3621",
+      "#f6dd9e",
+      "#975c22"
+    ]
+  },
+  {
+    "painting": "quiet-stream.png",
+    "colors": [
+      "#95ae31",
+      "#2b3e05",
+      "#e8eecf",
+      "#e6f75a",
+      "#545817"
+    ]
+  },
+  {
+    "painting": "quiet-woods.png",
+    "colors": [
+      "#d6d9e6",
+      "#b5b237",
+      "#b4b172",
+      "#4d4f55",
+      "#695767"
+    ]
+  },
+  {
+    "painting": "red-sunset.png",
+    "colors": [
+      "#ad6b5f",
+      "#261732",
+      "#fbeb80",
+      "#f4e3d8",
+      "#78272c"
+    ]
+  },
+  {
+    "painting": "reflections-of-calm.png",
+    "colors": [
+      "#313442",
+      "#5c9bcb",
+      "#506a95",
+      "#6c928d",
+      "#949791"
+    ]
+  },
+  {
+    "painting": "reflections-of-gold.png",
+    "colors": [
+      "#916d29",
+      "#e2d9c4",
+      "#422e23",
+      "#bfa2a4",
+      "#582a06"
+    ]
+  },
+  {
+    "painting": "reflections.png",
+    "colors": [
+      "#d7d1cf",
+      "#aa8624",
+      "#3a2915",
+      "#7d431b",
+      "#7ba6bb"
+    ]
+  },
+  {
+    "painting": "rippling-waters.png",
+    "colors": [
+      "#70653e",
+      "#cba780",
+      "#130f07",
+      "#a79e98",
+      "#8ce099"
+    ]
+  },
+  {
+    "painting": "rivers-peace.png",
+    "colors": [
+      "#1e1610",
+      "#618290",
+      "#595647",
+      "#627571",
+      "#816c5b"
+    ]
+  },
+  {
+    "painting": "riverside-escape-oval.png",
+    "colors": [
+      "#4f573f",
+      "#f5f5f0",
+      "#90cde9",
+      "#6298e3",
+      "#9a9a5c"
+    ]
+  },
+  {
+    "painting": "roadside-barn.png",
+    "colors": [
+      "#473f22",
+      "#d6d9e2",
+      "#558dc8",
+      "#84b9e2",
+      "#917a48"
+    ]
+  },
+  {
+    "painting": "rolling-hills.png",
+    "colors": [
+      "#745f3a",
+      "#e4c380",
+      "#1d1811",
+      "#b292a7",
+      "#d99a7d"
+    ]
+  },
+  {
+    "painting": "rowboat-on-the-beach.png",
+    "colors": [
+      "#5293a0",
+      "#e7e9de",
+      "#2f3120",
+      "#9acdc0",
+      "#4e533b"
+    ]
+  },
+  {
+    "painting": "royal-majesty.png",
+    "colors": [
+      "#c8c6d8",
+      "#1c1a29",
+      "#757eae",
+      "#8b9ac2",
+      "#67677c"
+    ]
+  },
+  {
+    "painting": "russet-winter.png",
+    "colors": [
+      "#b1835b",
+      "#dad1cf",
+      "#2a1814",
+      "#f0c895",
+      "#643925"
+    ]
+  },
+  {
+    "painting": "rustic-barn.png",
+    "colors": [
+      "#b99e36",
+      "#34180d",
+      "#e2edf2",
+      "#72310c",
+      "#d3bc9c"
+    ]
+  },
+  {
+    "painting": "rustic-winter-woods.png",
+    "colors": [
+      "#68341e",
+      "#fae49a",
+      "#d88e4d",
+      "#e0a9a0",
+      "#ab8564"
+    ]
+  },
+  {
+    "painting": "scenic-seclusion.png",
+    "colors": [
+      "#322d14",
+      "#b9804e",
+      "#b8a754",
+      "#706d7e",
+      "#7a7343"
+    ]
+  },
+  {
+    "painting": "seascape-fantasy.png",
+    "colors": [
+      "#e4d982",
+      "#343108",
+      "#938d1b",
+      "#fbfad2",
+      "#6d611d"
+    ]
+  },
+  {
+    "painting": "seascape.png",
+    "colors": [
+      "#bbaca9",
+      "#281f12",
+      "#796b6a",
+      "#736538",
+      "#5c4b34"
+    ]
+  },
+  {
+    "painting": "seaside-harmony.png",
+    "colors": [
+      "#9894ab",
+      "#141d2f",
+      "#623b56",
+      "#625a3f",
+      "#eaf0f5"
+    ]
+  },
+  {
+    "painting": "seasonal-progression.png",
+    "colors": [
+      "#4a7eaf",
+      "#2f3b21",
+      "#bfbec3",
+      "#1f325e",
+      "#99c6e6"
+    ]
+  },
+  {
+    "painting": "secluded-beach.png",
+    "colors": [
+      "#bed0f7",
+      "#12174c",
+      "#4e4ca6",
+      "#5e75d8",
+      "#847148"
+    ]
+  },
+  {
+    "painting": "secluded-bridge.png",
+    "colors": [
+      "#2d3e29",
+      "#80d1db",
+      "#c2e4dd",
+      "#5a9eb9",
+      "#719857"
+    ]
+  },
+  {
+    "painting": "secluded-forest.png",
+    "colors": [
+      "#536a6e",
+      "#d0c1cd",
+      "#7dc9d1",
+      "#6a98c9",
+      "#181d3c"
+    ]
+  },
+  {
+    "painting": "secluded-lake.png",
+    "colors": [
+      "#716748",
+      "#dac0af",
+      "#8d90bd",
+      "#171326",
+      "#acbebd"
+    ]
+  },
+  {
+    "painting": "secluded-mountain.png",
+    "colors": [
+      "#739dcb",
+      "#1e241a",
+      "#2d587f",
+      "#83927b",
+      "#7f7950"
+    ]
+  },
+  {
+    "painting": "serenity.png",
+    "colors": [
+      "#4d3c2b",
+      "#e4bfdc",
+      "#a17db1",
+      "#9b8556",
+      "#b1ad68"
+    ]
+  },
+  {
+    "painting": "shades-of-grey.png",
+    "colors": [
+      "#b7bbb7",
+      "#22231e",
+      "#687475",
+      "#57504b",
+      "#606051"
+    ]
+  },
+  {
+    "painting": "shadow-pond.png",
+    "colors": [
+      "#415930",
+      "#d6ecb0",
+      "#9bc064",
+      "#8ca052",
+      "#91a69f"
+    ]
+  },
+  {
+    "painting": "silent-forest.png",
+    "colors": [
+      "#28423a",
+      "#beafb1",
+      "#698a5a",
+      "#85b05e",
+      "#7a8cac"
+    ]
+  },
+  {
+    "painting": "snow-birch.png",
+    "colors": [
+      "#0d1715",
+      "#d5e9cc",
+      "#639f87",
+      "#155e91",
+      "#8c848c"
+    ]
+  },
+  {
+    "painting": "snow-trail.png",
+    "colors": [
+      "#e5dfd8",
+      "#524853",
+      "#8a7b96",
+      "#cba15b",
+      "#6e5a6a"
+    ]
+  },
+  {
+    "painting": "snowbound-cabin.png",
+    "colors": [
+      "#141922",
+      "#a8b4be",
+      "#799fb7",
+      "#65829c",
+      "#64666e"
+    ]
+  },
+  {
+    "painting": "snowfall-magic.png",
+    "colors": [
+      "#e7b691",
+      "#fbf7f3",
+      "#5b3023",
+      "#885535",
+      "#b06c39"
+    ]
+  },
+  {
+    "painting": "snowfall.png",
+    "colors": [
+      "#b6c6b1",
+      "#243e38",
+      "#65807b",
+      "#57634b",
+      "#545444"
+    ]
+  },
+  {
+    "painting": "snowy-morn.png",
+    "colors": [
+      "#393532",
+      "#a4906f",
+      "#868072",
+      "#8e858f",
+      "#a1aea1"
+    ]
+  },
+  {
+    "painting": "snowy-solitude.png",
+    "colors": [
+      "#d3dfe9",
+      "#4d5153",
+      "#6f736e",
+      "#7e8ea1",
+      "#666263"
+    ]
+  },
+  {
+    "painting": "soft-mountain-glow.png",
+    "colors": [
+      "#39402c",
+      "#d8b59d",
+      "#8b7254",
+      "#7280a9",
+      "#90afc9"
+    ]
+  },
+  {
+    "painting": "soothing-vista.png",
+    "colors": [
+      "#0a110a",
+      "#5e6c8f",
+      "#42523f",
+      "#739fa6",
+      "#676424"
+    ]
+  },
+  {
+    "painting": "southwest-serenity.png",
+    "colors": [
+      "#c8ac72",
+      "#473933",
+      "#d7cbc7",
+      "#664b49",
+      "#8d6726"
+    ]
+  },
+  {
+    "painting": "spectacular-view.png",
+    "colors": [
+      "#dcf9fa",
+      "#393b47",
+      "#8fcbed",
+      "#5688c7",
+      "#8a8068"
+    ]
+  },
+  {
+    "painting": "spectacular-waterfall.png",
+    "colors": [
+      "#8b93ba",
+      "#0b0716",
+      "#7270a3",
+      "#413965",
+      "#6e647b"
+    ]
+  },
+  {
+    "painting": "splashes-of-autumn.png",
+    "colors": [
+      "#4a4f2c",
+      "#a1c38b",
+      "#c0cf9b",
+      "#908d4d",
+      "#8ca0ac"
+    ]
+  },
+  {
+    "painting": "splendor-of-a-snowy-winter.png",
+    "colors": [
+      "#bacce6",
+      "#2f4168",
+      "#6282b0",
+      "#534c62",
+      "#766768"
+    ]
+  },
+  {
+    "painting": "splendor-of-autumn.png",
+    "colors": [
+      "#694d47",
+      "#d2b169",
+      "#201017",
+      "#9d899e",
+      "#aca58a"
+    ]
+  },
+  {
+    "painting": "splendor-of-winter.png",
+    "colors": [
+      "#ddd3d2",
+      "#3e4b5d",
+      "#96794f",
+      "#7b869c",
+      "#6f5842"
+    ]
+  },
+  {
+    "painting": "steep-mountains.png",
+    "colors": [
+      "#3d3722",
+      "#cecadb",
+      "#80bfee",
+      "#758eb4",
+      "#906c2a"
+    ]
+  },
+  {
+    "painting": "storm-on-the-horizon.png",
+    "colors": [
+      "#1d1f3a",
+      "#1f65a3",
+      "#4c6485",
+      "#767884",
+      "#81a0ae"
+    ]
+  },
+  {
+    "painting": "storms-a-comin.png",
+    "colors": [
+      "#161c2d",
+      "#e6e1e6",
+      "#5497cf",
+      "#7dbfed",
+      "#3c739b"
+    ]
+  },
+  {
+    "painting": "stormy-seas.png",
+    "colors": [
+      "#776163",
+      "#11060e",
+      "#c6c684",
+      "#a89aa7",
+      "#c09553"
+    ]
+  },
+  {
+    "painting": "summer-in-the-mountain.png",
+    "colors": [
+      "#6f804c",
+      "#99b5d2",
+      "#d4d2d8",
+      "#2c3719",
+      "#2c5052"
+    ]
+  },
+  {
+    "painting": "sunlight-in-the-shadows.png",
+    "colors": [
+      "#87564d",
+      "#fbf8d9",
+      "#fad39b",
+      "#df9e83",
+      "#bd9079"
+    ]
+  },
+  {
+    "painting": "sunset-aglow.png",
+    "colors": [
+      "#c590aa",
+      "#373e46",
+      "#fbeedc",
+      "#78466b",
+      "#706551"
+    ]
+  },
+  {
+    "painting": "sunset-oval.png",
+    "colors": [
+      "#b6a895",
+      "#211e1b",
+      "#634930",
+      "#d7d6d9",
+      "#816f39"
+    ]
+  },
+  {
+    "painting": "sunset-over-the-waves.png",
+    "colors": [
+      "#41181f",
+      "#da9c6a",
+      "#a05a44",
+      "#ab8a6c",
+      "#b0869d"
+    ]
+  },
+  {
+    "painting": "surfs-up.png",
+    "colors": [
+      "#243569",
+      "#ecedf9",
+      "#90a2e2",
+      "#7d6686",
+      "#c08d6b"
+    ]
+  },
+  {
+    "painting": "surprising-falls.png",
+    "colors": [
+      "#232d18",
+      "#4771d6",
+      "#c1c3ce",
+      "#85aec6",
+      "#6a7a6e"
+    ]
+  },
+  {
+    "painting": "teton-winter.png",
+    "colors": [
+      "#4a658a",
+      "#c3cede",
+      "#1d1827",
+      "#81b7d9",
+      "#73a8ce"
+    ]
+  },
+  {
+    "painting": "that-time-of-year.png",
+    "colors": [
+      "#67675a",
+      "#cec9a0",
+      "#bdab9b",
+      "#8e8da5",
+      "#12160b"
+    ]
+  },
+  {
+    "painting": "the-footbridge.png",
+    "colors": [
+      "#202f1d",
+      "#b39d8d",
+      "#75828e",
+      "#757959",
+      "#909d92"
+    ]
+  },
+  {
+    "painting": "the-magic-of-fall.png",
+    "colors": [
+      "#804f25",
+      "#7da9b2",
+      "#2b130c",
+      "#b19c63",
+      "#c08228"
+    ]
+  },
+  {
+    "painting": "the-old-home-place.png",
+    "colors": [
+      "#695e3d",
+      "#cbb37b",
+      "#cdbaa7",
+      "#201910",
+      "#4c2e11"
+    ]
+  },
+  {
+    "painting": "the-old-mill.png",
+    "colors": [
+      "#c6b048",
+      "#341809",
+      "#f4f1f1",
+      "#744e24",
+      "#d9c59f"
+    ]
+  },
+  {
+    "painting": "the-old-oak-tree.png",
+    "colors": [
+      "#455782",
+      "#040509",
+      "#0e1b53",
+      "#334c60",
+      "#3c4363"
+    ]
+  },
+  {
+    "painting": "the-old-weathered-barn.png",
+    "colors": [
+      "#722c08",
+      "#1b0607",
+      "#c2741c",
+      "#ac9533",
+      "#a27265"
+    ]
+  },
+  {
+    "painting": "the-property-line.png",
+    "colors": [
+      "#aba895",
+      "#25241f",
+      "#d5e0e5",
+      "#807047",
+      "#605347"
+    ]
+  },
+  {
+    "painting": "the-windmill.png",
+    "colors": [
+      "#af94c7",
+      "#81594c",
+      "#e1e0f6",
+      "#502748",
+      "#534eb0"
+    ]
+  },
+  {
+    "painting": "the-woodmans-retreat.png",
+    "colors": [
+      "#2f2512",
+      "#3e80ac",
+      "#813610",
+      "#9295a6",
+      "#5b7a3b"
+    ]
+  },
+  {
+    "painting": "through-the-window.png",
+    "colors": [
+      "#aab2b5",
+      "#15253b",
+      "#5d7a8e",
+      "#395d79",
+      "#3c5c4c"
+    ]
+  },
+  {
+    "painting": "to-a-warm-winter.png",
+    "colors": [
+      "#c0b7bb",
+      "#9c5033",
+      "#2c2739",
+      "#b0745e",
+      "#7e4e52"
+    ]
+  },
+  {
+    "painting": "toward-days-end.png",
+    "colors": [
+      "#404d32",
+      "#dbdfdc",
+      "#8ec5af",
+      "#688fbd",
+      "#8d9661"
+    ]
+  },
+  {
+    "painting": "towering-glacier.png",
+    "colors": [
+      "#c0d7ea",
+      "#08132e",
+      "#6180ae",
+      "#495663",
+      "#6f7a35"
+    ]
+  },
+  {
+    "painting": "towering-peaks.png",
+    "colors": [
+      "#4f6a2a",
+      "#e7f7f6",
+      "#97d1f2",
+      "#091f1f",
+      "#a5ab23"
+    ]
+  },
+  {
+    "painting": "trace-of-spring.png",
+    "colors": [
+      "#444934",
+      "#e0f5f1",
+      "#a2e2ea",
+      "#9b8db4",
+      "#9e8863"
+    ]
+  },
+  {
+    "painting": "trails-end.png",
+    "colors": [
+      "#402f2c",
+      "#c8c5c6",
+      "#aba4a6",
+      "#8c827b",
+      "#8e8c98"
+    ]
+  },
+  {
+    "painting": "tranquil-dawn.png",
+    "colors": [
+      "#c2a881",
+      "#3b2721",
+      "#fbf7ec",
+      "#675141",
+      "#87662d"
+    ]
+  },
+  {
+    "painting": "tranquil-seas.png",
+    "colors": [
+      "#815030",
+      "#1c2239",
+      "#d6cacd",
+      "#aeaab7",
+      "#d0aa61"
+    ]
+  },
+  {
+    "painting": "tranquil-valley.png",
+    "colors": [
+      "#534b46",
+      "#d2abd5",
+      "#90756b",
+      "#9b72b6",
+      "#a5ae7f"
+    ]
+  },
+  {
+    "painting": "tranquil-wooded-stream.png",
+    "colors": [
+      "#424323",
+      "#d5d87c",
+      "#928f46",
+      "#a8af5a",
+      "#9d9997"
+    ]
+  },
+  {
+    "painting": "tranquility-cove.png",
+    "colors": [
+      "#867166",
+      "#282015",
+      "#cbbf95",
+      "#c99c5b",
+      "#beb4b4"
+    ]
+  },
+  {
+    "painting": "trappers-cabin.png",
+    "colors": [
+      "#37402d",
+      "#b2b168",
+      "#59a8bd",
+      "#7e6040",
+      "#8fa96a"
+    ]
+  },
+  {
+    "painting": "triple-view.png",
+    "colors": [
+      "#425b43",
+      "#f3f3f9",
+      "#9dbe21",
+      "#9fb4df",
+      "#80707b"
+    ]
+  },
+  {
+    "painting": "tropical-seascape.png",
+    "colors": [
+      "#394e7e",
+      "#e8dfa4",
+      "#7e95ce",
+      "#1b1310",
+      "#a0bdd6"
+    ]
+  },
+  {
+    "painting": "twilight-beauty.png",
+    "colors": [
+      "#403b5b",
+      "#debecf",
+      "#a7afe3",
+      "#9b7b97",
+      "#8e90c8"
+    ]
+  },
+  {
+    "painting": "twilight-meadow.png",
+    "colors": [
+      "#556d2e",
+      "#5658f0",
+      "#c0d187",
+      "#8cc29f",
+      "#0c0b35"
+    ]
+  },
+  {
+    "painting": "twin-falls.png",
+    "colors": [
+      "#333c2a",
+      "#dce5f5",
+      "#9ebfda",
+      "#859ec6",
+      "#8f9647"
+    ]
+  },
+  {
+    "painting": "two-seasons.png",
+    "colors": [
+      "#adb9d7",
+      "#191f26",
+      "#6a6e46",
+      "#4b483f",
+      "#6376b2"
+    ]
+  },
+  {
+    "painting": "under-pastel-skies.png",
+    "colors": [
+      "#5c778a",
+      "#c08165",
+      "#222418",
+      "#8bb2ca",
+      "#92b4ac"
+    ]
+  },
+  {
+    "painting": "valley-of-tranquility.png",
+    "colors": [
+      "#343a36",
+      "#b3abc1",
+      "#77728c",
+      "#a09a98",
+      "#919c78"
+    ]
+  },
+  {
+    "painting": "valley-view.png",
+    "colors": [
+      "#d8e7b8",
+      "#243912",
+      "#96b874",
+      "#789040",
+      "#7c9696"
+    ]
+  },
+  {
+    "painting": "valley-waterfall.png",
+    "colors": [
+      "#152f2f",
+      "#2570b1",
+      "#98c1d1",
+      "#567925",
+      "#8d8f75"
+    ]
+  },
+  {
+    "painting": "view-from-clear-creek.png",
+    "colors": [
+      "#283326",
+      "#4a82ab",
+      "#7ea9c2",
+      "#95919f",
+      "#68762f"
+    ]
+  },
+  {
+    "painting": "view-from-the-park.png",
+    "colors": [
+      "#1a2d39",
+      "#deeff2",
+      "#595d55",
+      "#7f9454",
+      "#76a5ca"
+    ]
+  },
+  {
+    "painting": "warm-summer-day.png",
+    "colors": [
+      "#c4b871",
+      "#421f0f",
+      "#efeadc",
+      "#72431a",
+      "#9b8e16"
+    ]
+  },
+  {
+    "painting": "warm-winter-day.png",
+    "colors": [
+      "#f7d7e1",
+      "#411712",
+      "#964f39",
+      "#c08084",
+      "#b96a56"
+    ]
+  },
+  {
+    "painting": "waterfall-in-the-woods.png",
+    "colors": [
+      "#1b1b0c",
+      "#897ea3",
+      "#463957",
+      "#877f5b",
+      "#70772f"
+    ]
+  },
+  {
+    "painting": "waterfall-wonder.png",
+    "colors": [
+      "#263e3d",
+      "#97bcc9",
+      "#6b8cae",
+      "#658291",
+      "#ac9080"
+    ]
+  },
+  {
+    "painting": "waterside-way.png",
+    "colors": [
+      "#cdaa87",
+      "#fbf8f1",
+      "#42232d",
+      "#724e54",
+      "#886830"
+    ]
+  },
+  {
+    "painting": "waves-of-wonder.png",
+    "colors": [
+      "#e3f4f9",
+      "#132042",
+      "#7ccdf7",
+      "#6091db",
+      "#717b7f"
+    ]
+  },
+  {
+    "painting": "wayside-pond.png",
+    "colors": [
+      "#1c1f23",
+      "#49537f",
+      "#5d594c",
+      "#989587",
+      "#7c867e"
+    ]
+  },
+  {
+    "painting": "western-expanse.png",
+    "colors": [
+      "#d1d2ec",
+      "#15110d",
+      "#857e39",
+      "#5a4444",
+      "#788fca"
+    ]
+  },
+  {
+    "painting": "wetlands.png",
+    "colors": [
+      "#8c7440",
+      "#e8e6db",
+      "#582409",
+      "#2a0706",
+      "#cbc38c"
+    ]
+  },
+  {
+    "painting": "whispering-stream.png",
+    "colors": [
+      "#9a844f",
+      "#cadde0",
+      "#3a0d06",
+      "#5b2f13",
+      "#d0c97f"
+    ]
+  },
+  {
+    "painting": "wilderness-cabin.png",
+    "colors": [
+      "#c2cbca",
+      "#3b3926",
+      "#a29a57",
+      "#5d4c34",
+      "#908723"
+    ]
+  },
+  {
+    "painting": "wilderness-day.png",
+    "colors": [
+      "#ab7f5f",
+      "#1c1309",
+      "#735448",
+      "#898088",
+      "#8c8c79"
+    ]
+  },
+  {
+    "painting": "wilderness-falls.png",
+    "colors": [
+      "#c7dad1",
+      "#344d33",
+      "#7d9649",
+      "#71d7d4",
+      "#5e604f"
+    ]
+  },
+  {
+    "painting": "wilderness-trail.png",
+    "colors": [
+      "#0d1615",
+      "#1f4b6b",
+      "#334426",
+      "#50632a",
+      "#555325"
+    ]
+  },
+  {
+    "painting": "winding-stream.png",
+    "colors": [
+      "#73adc6",
+      "#242a14",
+      "#2a8ec3",
+      "#637a73",
+      "#42545f"
+    ]
+  },
+  {
+    "painting": "windy-waves.png",
+    "colors": [
+      "#354156",
+      "#e0e2e8",
+      "#a3b3be",
+      "#8d8f96",
+      "#8c9aba"
+    ]
+  },
+  {
+    "painting": "winter-at-the-farm.png",
+    "colors": [
+      "#bbe3f5",
+      "#405d7b",
+      "#67a2d2",
+      "#665554",
+      "#8c7770"
+    ]
+  },
+  {
+    "painting": "winter-barn.png",
+    "colors": [
+      "#bdbbce",
+      "#262b30",
+      "#7484a1",
+      "#5f514d",
+      "#6b6057"
+    ]
+  },
+  {
+    "painting": "winter-bliss.png",
+    "colors": [
+      "#6f6f94",
+      "#daccd5",
+      "#b8b9c1",
+      "#060609",
+      "#1c365d"
+    ]
+  },
+  {
+    "painting": "winter-cabin.png",
+    "colors": [
+      "#dfc8bb",
+      "#2f1523",
+      "#785d5c",
+      "#573c43",
+      "#644c42"
+    ]
+  },
+  {
+    "painting": "winter-evergreens.png",
+    "colors": [
+      "#2a2d6d",
+      "#f0f1f2",
+      "#92a6ee",
+      "#7d6b9b",
+      "#bc886c"
+    ]
+  },
+  {
+    "painting": "winter-frost.png",
+    "colors": [
+      "#e1d9ee",
+      "#324171",
+      "#8e94c6",
+      "#f2ee5f",
+      "#6f6182"
+    ]
+  },
+  {
+    "painting": "winter-glow.png",
+    "colors": [
+      "#baac96",
+      "#2e3a35",
+      "#6b4f38",
+      "#f3f3e2",
+      "#72603f"
+    ]
+  },
+  {
+    "painting": "winter-hideaway.png",
+    "colors": [
+      "#f7f0e5",
+      "#4b2d26",
+      "#deab5b",
+      "#956548",
+      "#9f96b8"
+    ]
+  },
+  {
+    "painting": "winter-in-pastel.png",
+    "colors": [
+      "#614c55",
+      "#c9a144",
+      "#90778f",
+      "#160714",
+      "#a49cac"
+    ]
+  },
+  {
+    "painting": "winter-lace.png",
+    "colors": [
+      "#f1d4df",
+      "#4b2a38",
+      "#b17b99",
+      "#87576d",
+      "#946960"
+    ]
+  },
+  {
+    "painting": "winter-mist.png",
+    "colors": [
+      "#b9bebb",
+      "#2b373b",
+      "#697276",
+      "#545357",
+      "#565d54"
+    ]
+  },
+  {
+    "painting": "winter-moon.png",
+    "colors": [
+      "#444f77",
+      "#e4eaf8",
+      "#7e8dcf",
+      "#a1b5eb",
+      "#05060d"
+    ]
+  },
+  {
+    "painting": "winter-mountain.png",
+    "colors": [
+      "#78a8d8",
+      "#050d2d",
+      "#d4daec",
+      "#3e5c83",
+      "#2f495f"
+    ]
+  },
+  {
+    "painting": "winter-night.png",
+    "colors": [
+      "#3e3b4b",
+      "#dedae6",
+      "#787b94",
+      "#939bb8",
+      "#9eb0c6"
+    ]
+  },
+  {
+    "painting": "winter-oval.png",
+    "colors": [
+      "#f7f3fb",
+      "#271541",
+      "#8d63b5",
+      "#a491f4",
+      "#d18a60"
+    ]
+  },
+  {
+    "painting": "winter-sawscape.png",
+    "colors": [
+      "#c4d0e1",
+      "#28323d",
+      "#617596",
+      "#524d4e",
+      "#71675a"
+    ]
+  },
+  {
+    "painting": "winter-solitude.png",
+    "colors": [
+      "#f2ebf9",
+      "#3c2f3a",
+      "#8a6873",
+      "#a2a1cf",
+      "#9d7e72"
+    ]
+  },
+  {
+    "painting": "winter-stillness.png",
+    "colors": [
+      "#e8e0d0",
+      "#281414",
+      "#c49d59",
+      "#875442",
+      "#ae8d8a"
+    ]
+  },
+  {
+    "painting": "winter-sun.png",
+    "colors": [
+      "#e6c6bd",
+      "#93474f",
+      "#b37278",
+      "#4f1e1e",
+      "#d3a742"
+    ]
+  },
+  {
+    "painting": "winters-elegance.png",
+    "colors": [
+      "#746364",
+      "#a6a6c1",
+      "#260d10",
+      "#c6b974",
+      "#c2845c"
+    ]
+  },
+  {
+    "painting": "winters-grace.png",
+    "colors": [
+      "#587aa8",
+      "#121b51",
+      "#1f2e68",
+      "#a2b6cf",
+      "#85b8db"
+    ]
+  },
+  {
+    "painting": "winters-paradise.png",
+    "colors": [
+      "#59557a",
+      "#bba2bc",
+      "#04041f",
+      "#9d9ebe",
+      "#a29cb2"
+    ]
+  },
+  {
+    "painting": "winters-peace.png",
+    "colors": [
+      "#343e4e",
+      "#b27036",
+      "#94685b",
+      "#7391aa",
+      "#b2ae59"
+    ]
+  },
+  {
+    "painting": "wintertime-blues.png",
+    "colors": [
+      "#58759e",
+      "#cdecf4",
+      "#8ac7f1",
+      "#0d142c",
+      "#122052"
+    ]
+  },
+  {
+    "painting": "wintertime-discovery.png",
+    "colors": [
+      "#68644a",
+      "#110d09",
+      "#9d948a",
+      "#8e8d8f",
+      "#a3a992"
+    ]
+  },
+  {
+    "painting": "wooded-stream-oval.png",
+    "colors": [
+      "#2b322a",
+      "#c0c1b9",
+      "#747574",
+      "#65759b",
+      "#77c778"
+    ]
+  },
+  {
+    "painting": "woodgrain-view.png",
+    "colors": [
+      "#0f192b",
+      "#8b7886",
+      "#3c4f6c",
+      "#586b8a",
+      "#5e746c"
+    ]
+  }
+]
