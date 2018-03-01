@@ -8,7 +8,7 @@ const fs = require('fs')
 const _ = require('lodash')
 
 function isPng (file) {
-  return file.indexOf('.png') !== -1  
+  return file.indexOf('.jpg') !== -1  
 }
 
 const images = fs.readdirSync(path.join(__dirname, '../static')).filter(isPng)
@@ -16,13 +16,15 @@ const images = fs.readdirSync(path.join(__dirname, '../static')).filter(isPng)
 Promise.all(images.map((filename) => {
   return getColors(path.join(__dirname, '../static', filename)).then((colors) => {
     return colors.map((color) => {
-      return color.hex()
+      return { hsv: color.hsv(), hex: color.hex() }
     }).reduce((accumulator, current, next) => {
       accumulator.painting = filename
-      accumulator.colors.push(current)
+      accumulator.hex.push(current.hex)
+      accumulator.hsv.push(current.hsv)
+      // accumulator.colors.push(current)
       return accumulator
-    }, { painting: '', colors: []})
+    }, { painting: '', hex: [], hsv: []})
   })
 })).then((result) => {
-  fs.writeFileSync(path.join(__dirname, '../src/data', 'colors.json'), JSON.stringify(result))
+  fs.writeFileSync(path.join(__dirname, '../src/data', 'colors-2.json'), JSON.stringify(result, true, 2))
 })

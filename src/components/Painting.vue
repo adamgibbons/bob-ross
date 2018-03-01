@@ -1,20 +1,20 @@
 <template>
-  <div v-show="isVisible">
+  <div v-show="isVisible" class="card"
+    @click="selectPainting">
     <div class="card-image">
       <figure class="image is-4by3">
-        <!-- <img :src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"> -->
         <img :src="imgSrc" :alt="imgDescription" />
       </figure>
     </div>
     <div class="card-content">
       <div class="media">
         <div class="media-content">
-          <p class="title is-4">{{title | stripTicks}}</p>
-          <p class="subtitle is-6">{{episode | seasonAndEpisode}}</p>
+          <p class="title is-4">{{title}}</p>
+          <p class="subtitle is-6 episode">{{episode | seasonAndEpisode}}</p>
         </div>
       </div>
       <div class="content">
-        <span class="tag is-light" v-for="tag in tags" :key="tag">
+        <span class="tag" v-for="tag in tags" :key="tag">
           {{tag | cleanTag}}
         </span>
       </div>
@@ -24,20 +24,23 @@
 
 <script>
 import cleanTag from '@/utils/clean-tag'
+import seasonAndEpisode from '@/utils/season-and-episode'
 
 export default {
-  props: ['title', 'episode', 'tags'],
+  props: ['title', 'episode', 'tags', 'id'],
+  methods: {
+    selectPainting () {
+      this.$emit('selectedPainting', this.id)
+    }
+  },
+  data () {
+    return {
+      selectedPainting: {}
+    }
+  },
   filters: {
     cleanTag,
-    seasonAndEpisode (string) {
-      const season = parseInt(string.slice(1))
-      const episode = parseInt(string.slice(4))
-
-      return `season ${season} • episode ${episode}`
-    },
-    stripTicks (title) {
-      return title.replace(/'/g, '')
-    }
+    seasonAndEpisode
   },
   computed: {
     isVisible () {
@@ -61,14 +64,29 @@ export default {
 
 <style scoped>
   .tag {
-    margin: 1px;
+    margin: 0 2px 2px 0;
+    background-color: #bbb;
+    color: #222;
+    font-size: .8em;
   }
-  .subtitle.is-6 {
+/*  .tag:hover {
+    background-color: #ddd;
+  }*/
+  .episode {
     text-transform: uppercase;
-    font-size: .9em;
-    color: #666;
+    font-size: .95em;
+    color: #ccc;
+    font-weight: 400;
   }
   .media-content {
     overflow: visible;
+  }
+  .card {
+    background-color: #444;
+    padding: 1em;
+    border: 1px solid #333;
+  }
+  .card:hover {
+    background-color: #555;
   }
 </style>

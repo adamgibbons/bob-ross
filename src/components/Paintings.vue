@@ -1,7 +1,5 @@
 <template>
   <div class="container is-fluid">
-    <h1 class="title is-2">The Bob Ross Explorer</h1>
-
     <div class="columns">
       <div class="column is-2">
         <div class="filters">
@@ -53,7 +51,7 @@
           <div class="field is-grouped is-grouped-multiline">
             <div class="control" v-for="filter in consolidatedActiveFilters" :key="filter.label">
               <div class="tags has-addons">
-                <a class="tag is-link">{{filter | filterLabel}}</a>
+                <a class="tag is-light">{{filter | filterLabel}}</a>
                 <a class="tag is-delete" @click="deActivateFilter([$event, filter])"></a>
               </div>
             </div>
@@ -63,11 +61,13 @@
         <transition-group name="list" tag="div" class="columns is-multiline">
           <painting
             v-for="(painting, idx) in visiblePaintings"
-            class="column is-3 card list-item"
+            class="column is-3 list-item"
             :key="idx"
             :title="painting.title"
             :episode="painting.episode"
-            :tags="extractTagsFromData(painting)">
+            :tags="extractTagsFromData(painting)"
+            :id="painting.id"
+            @selectedPainting="selectPainting">
           </painting>
         </transition-group>
       </div>
@@ -77,9 +77,10 @@
 
 <script>
 import paintings from '@/data/bob-ross.json'
-import { uniq, clone, omitBy, flatten, intersection } from 'lodash'
+import { uniq, clone, flatten, intersection } from 'lodash'
 import Painting from '@/components/Painting'
 import cleanTag from '@/utils/clean-tag'
+import extractTagsFromData from '@/utils/extract-tags-from-data'
 
 function parseSeasonFromString (data) {
   return data.map((row) => {
@@ -149,6 +150,10 @@ export default {
     }
   },
   methods: {
+    extractTagsFromData,
+    selectPainting (id) {
+      this.$router.push(`/paintings/${id}`)
+    },
     deActivateFilter ([event, tag]) {
       const idx = this.activeFilters[tag.type].indexOf(tag.label)
       this.activeFilters[tag.type].splice(idx, 1)
@@ -159,16 +164,6 @@ export default {
       this.visiblePaintings = clone(this.paintings)
       this.activeFilters.seasons = []
       this.activeFilters.tags = []
-    },
-    extractTagsFromData (data) {
-      const obj = clone(data)
-
-      delete obj.episode
-      delete obj.title
-
-      return Object.keys(omitBy(obj, (val) => {
-        return val === 0
-      }))
     },
     refilter () {
       this.visiblePaintings = this.paintings.filter((painting) => {
@@ -194,8 +189,7 @@ export default {
 
 <style scoped>
   .active-filters {
-    margin: 0 0 2em;
-    border-bottom: 2px solid #ccc;
+    margin: 0 0 1em;
     padding-bottom: 1em;
     font-weight: 600;
     font-size: 1.1em;
@@ -212,11 +206,7 @@ export default {
     font-size: 1.33em;
   }
   .filter-group-filters {
-    max-height: 20em;
-    overflow: scroll;
-    background: #eee;
     padding: .33em .5em;
-    border-radius: 4px;
   }
   .select{
     width: 100%;

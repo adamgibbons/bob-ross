@@ -1,3 +1,3 @@
 export default function (tag) {
-  return tag.replace('_', ' ')
+  return tag.replace(/_/g, ' ')
 }
