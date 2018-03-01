@@ -1,3 +1,7 @@
+// Reads a directory of images;
+// for each image, returns the name of the image filename
+// and an array of the six most prominent color pixels.
+
 const path = require('path')
 const getColors = require('get-image-colors')
 const fs = require('fs')
@@ -22,8 +26,3 @@ Promise.all(images.map((filename) => {
 })).then((result) => {
   fs.writeFileSync(path.join(__dirname, '../src/data', 'colors.json'), JSON.stringify(result))
 })
-
-// Promise.resolve(result).then(function (paintings) {
-//   const colors = _.flatten(paintings.map(painting => painting.colors))
-//   console.log(colors)
-// })
