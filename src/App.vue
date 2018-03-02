@@ -2,7 +2,11 @@
   <div id="app">
     <div class="columns header">
       <div class="column is-narrow">
-        <div id="bob-ross"><img src="./assets/bob-ross.png"></div>
+        <div id="bob-ross">
+          <router-link to="/paintings">
+            <img src="./assets/bob-ross.png">
+          </router-link>
+        </div>
       </div>
       <div class="column has-text-centered">
         <router-link to="/paintings">
@@ -70,17 +74,11 @@ export default {
     text-decoration: underline;
   }
   #bob-ross {
-    width: 4em;
+    width: 3.33em;
     position: absolute;
-    margin: .33em .2em 3em .5em;
-    opacity: .9;
+    margin: .1em .2em 3em .5em;
+    opacity: 9;
   }
-  /*#bob-ross + a {
-    text-align: center;
-    margin-left: 3em;
-    font-size: 2em;
-    font-family: 'Permanent Marker', cursive;
-  }*/
   #bob-ross img {
     width: 100%;
     max-height: unset;

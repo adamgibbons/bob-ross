@@ -195,15 +195,22 @@ export default {
     font-size: 1.1em;
   }
   .filters {
-    margin: 7em 0 0;
+    margin: 5em 0 0;
     padding: 0 0 1em;
+    /*background: red;*/
   }
   .filter-group {
-    margin-bottom: 1em;
+    margin-bottom: 2.33em;
+    height: 20em;
+    overflow: scroll;
   }
   .filter-group-label {
     font-weight: 900;
     font-size: 1.33em;
+    font-family: 'Permanent Marker', cursive;
+    border-bottom: 2px solid #555;
+    padding-bottom: .5em;
+    margin-bottom: .33em;
   }
   .filter-group-filters {
     padding: .33em .5em;

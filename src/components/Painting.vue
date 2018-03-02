@@ -9,8 +9,8 @@
     <div class="card-content">
       <div class="media">
         <div class="media-content">
-          <p class="title is-4">{{title}}</p>
-          <p class="subtitle is-6 episode">{{episode | seasonAndEpisode}}</p>
+          <div class="title is-4">{{title}}</div>
+          <div class="subtitle is-6 episode">{{episode | seasonAndEpisode}}</div>
         </div>
       </div>
       <div class="content">
@@ -69,14 +69,15 @@ export default {
     color: #222;
     font-size: .8em;
   }
-/*  .tag:hover {
-    background-color: #ddd;
-  }*/
+  .title {
+    margin-bottom: 1.33em;
+  }
   .episode {
     text-transform: uppercase;
     font-size: .95em;
     color: #ccc;
     font-weight: 400;
+    margin-bottom: .33em;
   }
   .media-content {
     overflow: visible;
