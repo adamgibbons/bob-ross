@@ -195,7 +195,7 @@ export default {
     font-size: 1.1em;
   }
   .filters {
-    margin: 0 0 2em;
+    margin: 7em 0 0;
     padding: 0 0 1em;
   }
   .filter-group {

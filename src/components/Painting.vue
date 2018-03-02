@@ -85,8 +85,9 @@ export default {
     background-color: #444;
     padding: 1em;
     border: 1px solid #333;
+    transition: all 0.2s;
   }
   .card:hover {
-    background-color: #555;
+    background-color: #666;
   }
 </style>

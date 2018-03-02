@@ -1,28 +1,15 @@
 <template>
   <div id="app">
-    <nav class="navbar">
-      <div class="navbar-brand">
-        <router-link class="navbar-item" to="/paintings">
+    <div class="columns header">
+      <div class="column is-narrow">
+        <div id="bob-ross"><img src="./assets/bob-ross.png"></div>
+      </div>
+      <div class="column has-text-centered">
+        <router-link to="/paintings">
           The Bob Ross Explorer
         </router-link>
-        <!-- <div class="navbar-burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div> -->
       </div>
-
-      <!-- <div class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item" href="http://agibbons.com">
-            Adam Gibbons
-          </a>
-          <a class="navbar-item" href="https://github.com/adamgibbons/bob-ross">
-            Github
-          </a>
-        </div>
-      </div> -->
-    </nav>
+    </div>
 
     <router-view/>
 
@@ -49,21 +36,25 @@ export default {
   html, body {
     background-color: #333;
   }
+  .title {
+    font-family: 'Permanent Marker', cursive;
+  }
   .title, .content, div, p, footer, .footer {
     color: white;
   }
-  .navbar {
+  .header {
+    font-family: 'Permanent Marker', cursive;
     background: #555;
-    margin-bottom: 2em;
+    font-size: 2em;
+    padding-top: .33em;
   }
-  .navbar-item {
+  .header a {
     color: white;
-    font-size: 1.1em;
+    background: transparent;
   }
-  a.navbar-item:hover {
-    background-color: #555;
-    text-decoration: underline;
+  .header a:hover {
     color: white;
+    background: transparent;
   }
   footer.footer {
     margin-top: 10em;
@@ -77,5 +68,21 @@ export default {
   footer a:hover {
     color: orange;
     text-decoration: underline;
+  }
+  #bob-ross {
+    width: 4em;
+    position: absolute;
+    margin: .33em .2em 3em .5em;
+    opacity: .9;
+  }
+  /*#bob-ross + a {
+    text-align: center;
+    margin-left: 3em;
+    font-size: 2em;
+    font-family: 'Permanent Marker', cursive;
+  }*/
+  #bob-ross img {
+    width: 100%;
+    max-height: unset;
   }
 </style>
