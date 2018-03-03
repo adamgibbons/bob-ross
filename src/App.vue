@@ -9,6 +9,11 @@
         </div>
       </div>
       <div class="column has-text-centered">
+        <div class="attribution">
+          Just for fun by <a href="http://agibbons.com">Adam Gibbons</a>
+          <br>
+          Code on <a href="https://github.com/adamgibbons/bob-ross">Github</a>
+        </div>
         <router-link to="/paintings">
           The Bob Ross Explorer
         </router-link>
@@ -16,17 +21,6 @@
     </div>
 
     <router-view/>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="content has-text-centered">
-          <p>
-            A just-for-fun project by <a href="http://agibbons.com">Adam Gibbons</a>.
-            Code available on <a href="https://github.com/adamgibbons/bob-ross">Github</a>.
-          </p>
-        </div>
-      </div>
-    </footer>
   </div>
 </template>
 
@@ -43,7 +37,7 @@ export default {
   .title {
     font-family: 'Permanent Marker', cursive;
   }
-  .title, .content, div, p, footer, .footer {
+  .title, .content, div, p {
     color: white;
   }
   .header {
@@ -60,19 +54,6 @@ export default {
     color: white;
     background: transparent;
   }
-  footer.footer {
-    margin-top: 10em;
-    background-color: transparent;
-    padding: 1em 0 2em;
-  }
-  footer a {
-    color: orange;
-    font-weight: 900;
-  }
-  footer a:hover {
-    color: orange;
-    text-decoration: underline;
-  }
   #bob-ross {
     width: 3.33em;
     position: absolute;
@@ -82,5 +63,19 @@ export default {
   #bob-ross img {
     width: 100%;
     max-height: unset;
+  }
+  .attribution {
+    font-weight: 600;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: .45em;
+    margin-left: -210px;
+    float: right;
+    position: relative;
+    top: .33em;
+    right: 1em;
+  }
+  .attribution a {
+    color: orange;
   }
 </style>
