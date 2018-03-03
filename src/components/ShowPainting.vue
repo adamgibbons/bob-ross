@@ -3,7 +3,7 @@
     <section class="section">
       <div class="columns">
         <div class="column is-narrow has-text-left">
-          <router-link class="button is-outlined is-white" to="/paintings">&laquo; Back to paintings</router-link>
+          <router-link class="button is-outlined is-white is-small" to="/paintings">&laquo; Back to paintings</router-link>
         </div>
         <div class="column is-4 has-text-right">
           <div class="title is-4">{{painting.title}}</div>
