@@ -63,6 +63,60 @@ export default {
   #bob-ross img {
     width: 100%;
     max-height: unset;
+    animation-name: doTheBob;
+    animation-duration: 20s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes doTheBob {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    2% {
+      transform: rotate(-6deg) scale(1.2);
+    }
+    4% {
+      transform: rotate(0deg) scale(1);
+    }
+
+    20% {
+      transform: rotate(-1deg);
+    }
+    21% {
+      transform: rotate(3deg);
+    }
+    22% {
+      transform: rotate(-5deg);
+    }
+    23% {
+      transform: rotate(7deg);
+    }
+    24% {
+      transform: rotate(-5deg);
+    }
+    25% {
+      transform: rotate(3deg);
+    }
+    26% {
+      transform: rotate(-2deg);
+    }
+    27% {
+      transform: rotate(1deg);
+    }
+    28% {
+      transform: rotate(0deg);
+    }
+
+    78% {
+      transform: rotate(0deg) scale(1);
+    }
+    80% {
+      transform: rotate(-3deg) scale(.8);
+    }
+    82% {
+      transform: rotate(0deg) scale(1);
+    }
   }
   .attribution {
     font-weight: 600;
