@@ -6,8 +6,8 @@
           <div class="filter-group">
             <div class="filter-group-label">Tags</div>
             <div class="filter-group-filters">
-              <div v-for="tag in tags" :key="tag">
-                <label :for="tag">
+              <div v-for="tag in tags" :key="tag" class="select-container">
+                <label :for="tag" class="select-label">
                   <input
                     type="checkbox"
                     :id="tag"
@@ -15,6 +15,7 @@
                     v-model="activeFilters.tags"
                     @change="refilter">
                   {{tag | cleanTag}}
+                  <span class="checkmark"></span>
                 </label>
               </div>
             </div>
@@ -23,8 +24,8 @@
           <div class="filter-group">
             <div class="filter-group-label">Season</div>
             <div class="filter-group-filters">
-              <div v-for="season in seasons" :key="season">
-                <label :for="season">
+              <div v-for="season in seasons" :key="season" class="select-container">
+                <label :for="season" class="select-label">
                   <input
                     type="checkbox"
                     :id="season"
@@ -32,6 +33,7 @@
                     v-model="activeFilters.seasons"
                     @change="refilter">
                   {{season}}
+                  <span class="checkmark"></span>
                 </label>
               </div>
             </div>
@@ -215,6 +217,80 @@ export default {
   .filter-group-filters {
     padding: .33em .5em;
   }
+
+  /*filters*/
+  .select-container {
+    position: relative;
+    font-size: .9em;
+    margin: .33em 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .select-container:hover {
+    background: #444;
+    overflow: hidden;
+  }
+
+  .select-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .select-label {
+    display: block;
+    padding-left: 2.33em;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #eee;
+    border-radius: 2px;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .select-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .select-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .select-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .select-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
   .select{
     width: 100%;
   }
@@ -226,6 +302,7 @@ export default {
     padding: .33em 0 1em;
     text-align: center;
   }
+
   .filters .title.is-4 {
     margin-top: 0;
     padding-top: 0;
