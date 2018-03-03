@@ -23,7 +23,7 @@
           <p class="content has-text-centered">Select a color from this swatch to view paintings with similar colors</p>
           <div class="columns is-multiline">
             <div v-if="palette.length > 0" v-for="color in palette" :key="color" class="column">
-              <div class="color" :style="{'background-color': color }" @click="selectColor(color)">
+              <div class="color activating-border" :style="{'background-color': color }" @click="selectColor(color)">
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@
     <div>
       <div class="columns is-multiline">
         <div class="column is-3" v-for="(painting, idx) in similarPaintings" :key="idx">
-          <img :src="getSource(painting)" @click="selectPainting(painting)">
+          <img :src="getSource(painting)" @click="selectPainting(painting)" class="related-painting activating-border">
         </div>
       </div>
     </div>
@@ -115,12 +115,14 @@ export default {
 <style scoped>
   .color {
     margin-bottom: 1em;
+  }
+  .activating-border {
     transition: all .2s;
     border: 0px solid orange;
     border-radius: 3px;
   }
-  .color:hover {
-    transform: scale(1.1);
+  .activating-border:hover {
+    transform: scale(1.05);
     cursor: pointer;
     border: 2px solid orange;
   }
