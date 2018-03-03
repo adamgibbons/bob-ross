@@ -115,6 +115,14 @@ export default {
 <style scoped>
   .color {
     margin-bottom: 1em;
+    transition: all .2s;
+    border: 0px solid orange;
+    border-radius: 3px;
+  }
+  .color:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    border: 2px solid orange;
   }
   .episode {
     text-transform: uppercase;
