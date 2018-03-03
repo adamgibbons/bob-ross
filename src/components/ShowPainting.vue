@@ -33,6 +33,9 @@
     </div>
 
     <div>
+      <p class="content has-text-centered" v-show="similarPaintings.length === 0 && userSelectedColor">
+        You chose a rare color! No similar paintings were found. Try again.
+      </p>
       <div class="columns is-multiline">
         <div class="column is-3" v-for="(painting, idx) in similarPaintings" :key="idx">
           <img :src="getSource(painting)" @click="selectPainting(painting)" class="related-painting activating-border">
@@ -77,6 +80,8 @@ export default {
       }).filter((painting) => {
         return !!painting.id
       })
+
+      this.userSelectedColor = true
     }
   },
   data () {
@@ -84,7 +89,8 @@ export default {
       paintingId: this.$route.params.paintingId,
       painting: {},
       palette: [],
-      similarPaintings: []
+      similarPaintings: [],
+      userSelectedColor: false
     }
   },
   watch: {
